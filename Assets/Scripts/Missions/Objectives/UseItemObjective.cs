@@ -46,11 +46,6 @@ public class UseItemObjective : MissionObjective
         {
             return $"Use: (No Item Selected)";
         }
-
-        if (!item.Usable)
-        {
-            return $"Use: {item.Name} (Item Is Not Usable)";
-        }
         
         return $"Use: {item.Name}";
     }

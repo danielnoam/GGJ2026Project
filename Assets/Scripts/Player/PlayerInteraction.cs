@@ -9,22 +9,23 @@ public class PlayerInteraction : MonoBehaviour
 {
     [Header("Interaction Settings")]
     [SerializeField] private bool canInteractWhileAirborne = true;
-    [SerializeField] private float interactCheckRange = 3f;
+    [SerializeField] private float interactCheckRange = 2f;
     [SerializeField] private Vector3 interactCheckOffset = Vector3.zero;
     [SerializeField] private LayerMask interactableLayer;
     [SerializeField, ReadOnly] private InterfaceReference<IInteractable> closestInteractable;
     
     private PlayerControllerInput _input;
     private PlayerController _playerController;
+    private PlayerInventory _playerInventory;
     
     private bool CanInteract => canInteractWhileAirborne || _playerController.IsGrounded;
     
-    public IInteractable ClosestInteractable => closestInteractable.Value;
 
     private void Awake()
     {
         _input = GetComponent<PlayerControllerInput>();
         _playerController = GetComponent<PlayerController>();
+        _playerInventory = GetComponent<PlayerInventory>();
     }
 
     private void OnEnable()
@@ -46,7 +47,12 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (CanInteract && context.performed && closestInteractable.Value != null)
         {
-            closestInteractable.Value.Interact();
+            var interactorData = new InteractorData()
+            {
+                interactor = gameObject,
+                equippedItem = _playerInventory.EquippedItem
+            };
+            closestInteractable.Value.Interact(interactorData);
         }
     }
 

@@ -71,12 +71,12 @@ namespace UI
 
             wheelItems.Clear();
 
-            if (inventory == null || inventory.UsableItems.Count == 0)
+            if (!inventory || inventory.AllItems.Count == 0)
             {
                 return;
             }
 
-            currentUsableItems = inventory.UsableItems;
+            currentUsableItems = inventory.AllItems;
             gameObject.SetActive(true);
 
             currentIndex = 0;

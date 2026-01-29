@@ -26,7 +26,7 @@ namespace UI
             
             ClearItems();
             
-            foreach (var item in inventory.NonUsableItems)
+            foreach (var item in inventory.AllItems)
             {
                 var slot = Instantiate(itemPrefab, container);
                 slot.Image.sprite = item.Icon;

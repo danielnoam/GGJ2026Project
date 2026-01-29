@@ -64,7 +64,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnEnable()
     {
-        _input.OnJumpAction += OnJumpAction;
         CleaningAnimationBehavior.OnStateEntered += BlockedMovementBehaviorEntered;
         CleaningAnimationBehavior.OnStateExited += BlockedMovementBehaviorExited;
         OpeningPackageAnimationBehavior.OnStateEntered += BlockedMovementBehaviorEntered;
@@ -73,7 +72,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
-        _input.OnJumpAction -= OnJumpAction;
         CleaningAnimationBehavior.OnStateEntered -= BlockedMovementBehaviorEntered;
         CleaningAnimationBehavior.OnStateExited -= BlockedMovementBehaviorExited;
         OpeningPackageAnimationBehavior.OnStateExited -= BlockedMovementBehaviorExited;

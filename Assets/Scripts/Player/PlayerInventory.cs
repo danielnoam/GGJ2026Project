@@ -1,10 +1,10 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using DNExtensions;
 using DNExtensions.Utilities;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
+
 
 [RequireComponent(typeof(PlayerControllerInput))]
 public class PlayerInventory : MonoBehaviour
@@ -18,8 +18,6 @@ public class PlayerInventory : MonoBehaviour
     private PlayerControllerInput _input;
     private PlayerController _playerController;
     
-    public List<SOItem> NonUsableItems => allItems.Where(item => !item.Usable).ToList();
-    public List<SOItem> UsableItems => allItems.Where(item => item.Usable).ToList();
     public List<SOItem> AllItems => allItems;
     public SOItem EquippedItem => equippedItem;
     public int Count => allItems.Count;
@@ -46,25 +44,14 @@ public class PlayerInventory : MonoBehaviour
 
     private void OnEnable()
     {
-        _input.OnUseAction += OnUseAction;
         _input.OnCycleItemsAction += OnCycleItemsAction;
     }
 
     private void OnDisable()
     {
-        _input.OnUseAction -= OnUseAction;
         _input.OnCycleItemsAction -= OnCycleItemsAction;
     }
-
-    private void OnUseAction(InputAction.CallbackContext context)
-    {
-        if (!_playerController.AllowControl) return;
-        
-        if (context.started)
-        {
-            equippedItem?.Use();
-        }
-    }
+    
 
     private void OnCycleItemsAction(InputAction.CallbackContext context)
     {
@@ -72,7 +59,7 @@ public class PlayerInventory : MonoBehaviour
         
         if (!context.performed || IsEmpty) return;
 
-        var usableItems = UsableItems;
+        var usableItems = allItems;
         if (usableItems.Count == 0) return;
 
         int currentIndex = equippedItem ? usableItems.IndexOf(equippedItem) : -1;
@@ -160,7 +147,7 @@ public class PlayerInventory : MonoBehaviour
     {
         GameEvents.ItemObtained(item);
         
-        if (!equippedItem && item.Usable)
+        if (!equippedItem)
         {
             equippedItem = item;
             GameEvents.ItemEquipped(equippedItem);

@@ -4,6 +4,15 @@ using DNExtensions.Utilities.Button;
 using DNExtensions.Utilities.SerializableSelector;
 using UnityEngine;
 
+[Serializable]
+public class InteractPossibility
+{
+    public SOItem neededItem;
+    [SerializeReference, SerializableSelector] 
+    public GameAction[] actionsOnInteract = Array.Empty<GameAction>();
+}
+
+
 [SelectionBase]
 [DisallowMultipleComponent]
 public abstract class Interactable : MonoBehaviour, IInteractable
@@ -11,8 +20,7 @@ public abstract class Interactable : MonoBehaviour, IInteractable
     [Header("Interactable Settings")]
     [SerializeField] private bool canInteract = true;
     [SerializeField] private bool limitInteractionsToOnce;
-    [SerializeReference, SerializableSelector] 
-    private GameAction[] actionsOnInteract = Array.Empty<GameAction>();
+    [SerializeField] private InteractPossibility[] interactPossibilities = Array.Empty<InteractPossibility>();
     
     [SerializeField, ReadOnly] private bool hasInteracted;
     [SerializeField, ReadOnly] private string interactableID = "";
@@ -20,20 +28,28 @@ public abstract class Interactable : MonoBehaviour, IInteractable
     public string InteractableID => interactableID;
 
 
-
-    [Button]
-    public void Interact()
+    
+    public void Interact(InteractorData interactorData)
     {
         if (limitInteractionsToOnce && hasInteracted) return;
         
         hasInteracted = true;
         
         GameEvents.InteractedWith(this);
-        OnInteract();
-        
-        foreach (var action in actionsOnInteract)
+        OnInteract(interactorData);
+
+        foreach (InteractPossibility interactPossibility in interactPossibilities)
         {
-            action?.Execute();
+            bool isItemNeeded = interactPossibility.neededItem;
+            bool hasItem = interactorData.equippedItem;
+            
+            if (!isItemNeeded || hasItem && interactorData.equippedItem == interactPossibility.neededItem)
+            {
+                foreach (var action in interactPossibility.actionsOnInteract)
+                {
+                    action?.Execute();
+                }
+            }
         }
     }
     
@@ -42,7 +58,7 @@ public abstract class Interactable : MonoBehaviour, IInteractable
         return canInteract;
     }
     
-    protected abstract void OnInteract();
+    protected abstract void OnInteract(InteractorData interactorData);
     
     
 #if UNITY_EDITOR

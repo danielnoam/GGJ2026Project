@@ -67,7 +67,7 @@ public class NPC : Interactable
         }
     }
     
-    protected override void OnInteract()
+    protected override void OnInteract(InteractorData interactorData)
     {
         if (_activeDialogue != null)
         {

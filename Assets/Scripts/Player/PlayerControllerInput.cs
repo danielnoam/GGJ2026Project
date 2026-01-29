@@ -24,7 +24,6 @@ public class PlayerControllerInput : MonoBehaviour
     
     public event Action<InputAction.CallbackContext> OnJumpAction;
     public event Action<InputAction.CallbackContext> OnInteractAction;
-    public event Action<InputAction.CallbackContext> OnUseAction;
     public event Action<InputAction.CallbackContext> OnCycleItemsAction;
 
     private void Awake()
@@ -58,7 +57,6 @@ public class PlayerControllerInput : MonoBehaviour
         SubscribeToAction(_moveAction, OnMove);
         SubscribeToAction(_jumpAction, OnJump);
         SubscribeToAction(_interactAction, OnInteract);
-        SubscribeToAction(_useAction, OnUse);
         SubscribeToAction(_cycleItemsAction, OnCycleItems);
     }
 
@@ -67,7 +65,6 @@ public class PlayerControllerInput : MonoBehaviour
         UnsubscribeFromAction(_moveAction, OnMove);
         UnsubscribeFromAction(_jumpAction, OnJump);
         UnsubscribeFromAction(_interactAction, OnInteract);
-        UnsubscribeFromAction(_useAction, OnUse);
         UnsubscribeFromAction(_cycleItemsAction, OnCycleItems);
     }
 
@@ -96,11 +93,6 @@ public class PlayerControllerInput : MonoBehaviour
         OnJumpAction?.Invoke(context);
     }
     
-    private void OnUse(InputAction.CallbackContext context)
-    {
-        if (!_playerController.AllowControl) return;
-        OnUseAction?.Invoke(context);
-    }
     
     private void OnCycleItems(InputAction.CallbackContext context)
     {

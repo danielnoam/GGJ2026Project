@@ -67,11 +67,7 @@ public class UseItemInTriggerObjective : MissionObjective
         {
             return $"Use: (No Item Selected) In: {areaDescription}";
         }
-
-        if (!item.Usable)
-        {
-            return $"Use: {item.Name} (Item Is Not Usable) In: {areaDescription}";
-        }
+        
         
         return $"Use: {item.Name} In: {areaDescription}";
     }
