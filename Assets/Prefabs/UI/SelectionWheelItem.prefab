@@ -88,4 +88,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7faa1bce83aa47c8a58adce701f8cc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectionWheelItem
-  image: {fileID: 3946257290028247351}
+  usedPunchStrength: 1.5
+  usedPunchDuration: 0.25
