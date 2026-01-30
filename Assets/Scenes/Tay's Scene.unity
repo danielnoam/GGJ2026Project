@@ -1803,6 +1803,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grave
       objectReference: {fileID: 0}
+    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: 'managedReferences[-2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: 'managedReferences[8974533463613374464]'
+      value: Assembly-CSharp PlayPickupAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: interactPossibilities.Array.data[0].actionsOnInteract.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[0]'
+      value: 8974533463613374464
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[1]'
+      value: 4802877485695893591
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[2]'
+      value: 4802877491417186573
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[3]'
+      value: 4802877485695893594
+      objectReference: {fileID: 0}
     - target: {fileID: 6898713466309673293, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -51.38
@@ -9735,7 +9763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6517962284927108642, guid: 64dd1ba521d16430f893172911f1f44b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 79
+      value: 89.58
       objectReference: {fileID: 0}
     - target: {fileID: 6517962284927108642, guid: 64dd1ba521d16430f893172911f1f44b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12497,6 +12525,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: IncenseHolder
       objectReference: {fileID: 0}
+    - target: {fileID: 2135153495599024744, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: 'managedReferences[-2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135153495599024744, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: 'managedReferences[8974533463613374467]'
+      value: Assembly-CSharp PlayPickupAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135153495599024744, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: interactPossibilities.Array.data[0].actionsOnInteract.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135153495599024744, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[0]'
+      value: 8974533463613374467
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135153495599024744, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[1]'
+      value: 4802877491417186569
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135153495599024744, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[2]'
+      value: 4802877491417186571
+      objectReference: {fileID: 0}
     - target: {fileID: 8457726529580828936, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.318714
@@ -12874,19 +12926,31 @@ PrefabInstance:
       value: Assembly-CSharp CallRitualEventAction
       objectReference: {fileID: 0}
     - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
+      propertyPath: 'managedReferences[8974533463613374465]'
+      value: Assembly-CSharp PlayPickupAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
       propertyPath: managedReferences[8974533461546631168].weaponToPrevent
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
       propertyPath: interactPossibilities.Array.data[0].actionsOnInteract.Array.size
-      value: 3
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[0]'
+      value: 8974533463613374465
       objectReference: {fileID: 0}
     - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
       propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[1]'
-      value: 8974533461546631168
+      value: 4802877485695893591
       objectReference: {fileID: 0}
     - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
       propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[2]'
+      value: 8974533461546631168
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[3]'
       value: 4802877485695893593
       objectReference: {fileID: 0}
     - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
@@ -13011,16 +13075,28 @@ PrefabInstance:
       value: Assembly-CSharp RemoveItemAction
       objectReference: {fileID: 0}
     - target: {fileID: 5224180724471860856, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: 'managedReferences[8974533463613374466]'
+      value: Assembly-CSharp PlayPickupAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224180724471860856, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
       propertyPath: managedReferences[8974533460442218576].item
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5224180724471860856, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
       propertyPath: interactPossibilities.Array.data[0].actionsOnInteract.Array.size
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224180724471860856, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[0]'
+      value: 8974533463613374466
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224180724471860856, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[1]'
+      value: 4802877491417186570
       objectReference: {fileID: 0}
     - target: {fileID: 5224180724471860856, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
       propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[2]'
-      value: -2
+      value: 4802877491417186569
       objectReference: {fileID: 0}
     - target: {fileID: 5290327284430899609, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
       propertyPath: m_Name
