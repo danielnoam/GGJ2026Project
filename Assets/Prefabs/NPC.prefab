@@ -96,8 +96,8 @@ MonoBehaviour:
   limitInteractionsToOnce: 0
   interactPossibilities: []
   hasInteracted: 0
-  interactableID: d6f638df-b5a3-43fc-8afd-33ab79d53a34
-  name: Someone generic
+  interactableID: 5a6992d3-2da0-466f-9e2e-08847dc2c4c6
+  name: NPC
   speechCooldown: 1.5
   speechCooldownTimer: 0
   playProximityDialogue: 1

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Test
+  m_Name: ShadowCastingSprite
   m_Shader: {fileID: -6465566751694194690, guid: 434c476e9b5303246a2cac4031396c11, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -59,15 +59,15 @@ Material:
     - _FlipX: -1
     - _FlipY: -1
     - _Metallic: 0
-    - _Outline: 1
+    - _Outline: 0
     - _Outline_Radius: 4
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     - _UseNormalForDirection: 0
     m_Colors:
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 1}
-    - _Outline_Color: {r: 0, g: 766.9962, b: 361.4119, a: 1}
+    - _Outline_Color: {r: 38.376373, g: 0, b: 241.50943, a: 1}
     - _SpriteColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
