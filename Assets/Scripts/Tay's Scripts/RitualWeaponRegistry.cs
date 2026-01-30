@@ -11,10 +11,10 @@ public class RitualWeaponRegistry : MonoBehaviour
     [Header("Weapon Availability")]
     [SerializeField] private bool knifeAvailable = true;
     [SerializeField] private bool axeAvailable = true;
-    [SerializeField] private bool incenseAvailable = true;
-    
     [Header("Choir Status")]
     [SerializeField] private bool choirAlive = true;
+    
+    [SerializeField] private bool incenseAvailable = true;
     
     [SerializeField] private ChoirGroupController choirGroup;
     

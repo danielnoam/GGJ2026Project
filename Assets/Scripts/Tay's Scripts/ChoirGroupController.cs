@@ -49,10 +49,11 @@ public class ChoirGroupController : MonoBehaviour
         
         foreach (var member in choirMembers)
         {
+          
             if (member != null)
             {
-                member.Die();
                 yield return new WaitForSeconds(delayBetweenDeath);
+                member.Die();
             }
         }
     }

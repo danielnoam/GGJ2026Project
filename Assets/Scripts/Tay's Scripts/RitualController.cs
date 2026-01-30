@@ -33,7 +33,7 @@ public class RitualController : MonoBehaviour
     }
 
     // Called by Timeline Signal at 2:40 - selects weapon and triggers animation on cult leader
-    public void OnSelectWeaponPath()
+    public void OnSelectWeapon()
     {
         if (enableDebugLogs) Debug.Log("[RitualController] Selecting weapon path at 2:40");
         
@@ -64,19 +64,20 @@ public class RitualController : MonoBehaviour
             if (enableDebugLogs) Debug.Log("[RitualController] Knife is available");
             return WeaponType.Knife;
         }
-        
-        // Second priority: Axe
-        if (RitualWeaponRegistry.Instance.AxeAvailable)
-        {
-            if (enableDebugLogs) Debug.Log("[RitualController] Axe is available");
-            return WeaponType.Axe;
-        }
+     
         
         // Third priority: Choir Weapon (only if choir is alive)
         if (RitualWeaponRegistry.Instance.ChoirAlive)
         {
             if (enableDebugLogs) Debug.Log("[RitualController] Choir weapon is available");
             return WeaponType.ChoirWeapon;
+        }
+           
+        // Second priority: Axe
+        if (RitualWeaponRegistry.Instance.AxeAvailable)
+        {
+            if (enableDebugLogs) Debug.Log("[RitualController] Axe is available");
+            return WeaponType.Axe;
         }
         
         // Fourth priority: Incense

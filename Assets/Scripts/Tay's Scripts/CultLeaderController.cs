@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 // Controls the cult leader's behavior during the ritual.
@@ -19,6 +20,14 @@ public class CultLeaderController : MonoBehaviour
     [SerializeField] private bool enableDebugLogs = false;
     
     private RitualController.WeaponType currentWeapon = RitualController.WeaponType.None;
+
+    private void Awake()
+    {
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
+    }
 
     // Called by RitualController at 2:40 to play the correct 20-second weapon animation
     public void PlayWeaponAnimation(RitualController.WeaponType weapon)
