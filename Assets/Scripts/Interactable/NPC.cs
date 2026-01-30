@@ -58,14 +58,7 @@ public class NPC : InteractableBase
             ShowFarewellBubble();
         }
     }
-    
-    private void ReceiveItem(SOItem item)
-    {
-        if (PlayerInventory.Instance && PlayerInventory.Instance.TryRemoveItem(item))
-        {
-            GameEvents.ItemGivenToNpc(item, this);
-        }
-    }
+
     
     protected override void OnInteract(InteractorData interactorData)
     {
@@ -78,21 +71,8 @@ public class NPC : InteractableBase
             return;
         }
         
-        GameEvents.NpcTalkedTo(this);
-
-        if (MissionManager.Instance.HasMissionGiveItemFor(this, out SOItem item))
-        {
-            ReceiveItem(item);
-        }
     }
-
-    public void GiveItemToPlayer(SOItem item)
-    {
-        if (PlayerInventory.Instance)
-        {
-            PlayerInventory.Instance.TryAddItem(item);
-        }
-    }
+    
     
 
 
@@ -103,7 +83,6 @@ public class NPC : InteractableBase
         
         if (_activeDialogue.IsComplete)
         {
-            GameEvents.DialogueSequenceCompleted(this);
             _activeDialogue = null;
             _speechBubble.Hide(true);
             return;

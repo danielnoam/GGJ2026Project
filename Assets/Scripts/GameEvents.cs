@@ -1,110 +1,44 @@
 using System;
-using UnityEngine;
+using System.Collections.Generic;
 
-public static class GameEvents
+public static partial class GameEvents
 {
+    public static event Action OnRitualStarted;
+    public static event Action<RitualWeapon, HashSet<RitualWeapon>> OnRitualCompleted;
+    public static event Action OnRitualStopped;
+    
+    public static event Action<RitualWeapon> OnWeaponPrevented;
+    
     public static event Action<PlayerInventory> OnInventoryChanged;
-    public static event Action<PlayerState> OnPlayerStateChanged; 
-    public static event Action<SOItem> OnItemObtained;
-    public static event Action<SOItem> OnItemRemoved;
-    public static event Action<SOItem> OnItemUsed;
     public static event Action<SOItem> OnItemEquipped;
-    public static event Action OnWalkAction;
-    public static event Action OnJumpedAction;
     
-    
-    public static event Action<SOItem, NPC> OnItemGivenToNpc;
-    public static event Action<NPC> OnNpcTalkedTo;
-    public static event Action<NPC> OnDialogueSequenceCompleted;
-    public static event Action<InteractableBase> OnInteractedWith;
-    public static event Action<string> OnTriggerEntered;
-    public static event Action<string> OnTriggerExited;
-    
-    public static event Action<SOMission> OnMissionStarted;
-    public static event Action<SOMission> OnMissionCompleted;
-    
-
-    
-    
-    public static void ItemObtained(SOItem item)
+    public static void RitualStarted()
     {
-        OnItemObtained?.Invoke(item);
+        OnRitualStarted?.Invoke();
     }
     
-    public static void ItemRemoved(SOItem item)
+    public static void RitualCompleted(RitualWeapon weaponUsed, HashSet<RitualWeapon> preventedWeapons)
     {
-        OnItemRemoved?.Invoke(item);
+        OnRitualCompleted?.Invoke(weaponUsed, preventedWeapons);
     }
-
-    public static void ItemUsed(SOItem item)
+    
+    public static void RitualStopped()
     {
-        OnItemUsed?.Invoke(item);
+        OnRitualStopped?.Invoke();
+    }
+    
+    public static void WeaponPrevented(RitualWeapon weapon)
+    {
+        OnWeaponPrevented?.Invoke(weapon);
     }
     
     public static void InventoryChanged(PlayerInventory inventory)
     {
         OnInventoryChanged?.Invoke(inventory);
     }
-
-    public static void PlayerStateChanged(PlayerState state)
-    {
-        OnPlayerStateChanged?.Invoke(state);
-    }
-
+    
     public static void ItemEquipped(SOItem item)
     {
         OnItemEquipped?.Invoke(item);
     }
-    
-    public static void ItemGivenToNpc(SOItem item, NPC npc)
-    {
-        OnItemGivenToNpc?.Invoke(item, npc);
-    }
-    
-    public static void NpcTalkedTo(NPC npc)
-    {
-        OnNpcTalkedTo?.Invoke(npc);
-    }
-    
-    public static void DialogueSequenceCompleted(NPC npc)
-    {
-        OnDialogueSequenceCompleted?.Invoke(npc);
-    }
-
-    public static void InteractedWith(InteractableBase interactable)
-    {
-        OnInteractedWith?.Invoke(interactable);
-    }
-    
-    public static void TriggerEntered(string triggerID)
-    {
-        OnTriggerEntered?.Invoke(triggerID);
-    }
-    
-    public static void TriggerExited(string triggerID)
-    {
-        OnTriggerExited?.Invoke(triggerID);
-    }
-    
-    public static void MissionStarted(SOMission mission)
-    {
-        OnMissionStarted?.Invoke(mission);
-    }
-    
-    public static void MissionCompleted(SOMission mission)
-    {
-        OnMissionCompleted?.Invoke(mission);
-    }
-
-    public static void WalkedAction()
-    {
-        OnWalkAction?.Invoke();
-    }
-
-    public static void JumpedAction()
-    {
-        OnJumpedAction?.Invoke();
-    }
-    
-
 }

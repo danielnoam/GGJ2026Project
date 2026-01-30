@@ -7,13 +7,8 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerControllerInput))]
 public class PlayerAnimator : MonoBehaviour
 {
-    private static readonly int Cleaning = Animator.StringToHash("Cleaning");
-    private static readonly int BlowingHorn = Animator.StringToHash("BlowHorn");
-    private static readonly int OpenPackage = Animator.StringToHash("OpeningPackage");
 
-    [Header("Jump Animation")] 
-    [SerializeField] private float jumpDuration = 0.1f;
-
+    
     [Header("Change Direction Animation")] 
     [SerializeField] private float directionDuration = 0.15f;
     [SerializeField] private Ease directionEase = Ease.InOutCubic;
@@ -33,48 +28,14 @@ public class PlayerAnimator : MonoBehaviour
         _input = GetComponent<PlayerControllerInput>();
         modelTransform.eulerAngles = new Vector3(0f, 180f, 0f);
     }
-
-    private void OnEnable()
-    {
-        GameEvents.OnJumpedAction += PlayJumpedActionAnimation;
-        GameEvents.OnPlayerStateChanged += OnPlayerStateChanged;
-    }
-
-
-
-    private void OnDisable()
-    {
-        GameEvents.OnJumpedAction -= PlayJumpedActionAnimation;
-        GameEvents.OnPlayerStateChanged -= OnPlayerStateChanged;
-    }
-
+    
     private void Update()
     {
         HandleHorizontalViewDirection();
         HandleVerticalViewDirection();
     }
     
-    private void OnPlayerStateChanged(PlayerState newState)
-    {
-        switch (newState)
-        {
-            case PlayerState.UsingCleaningUtensils:
-                animator.SetTrigger(Cleaning);
-                break;
-            case PlayerState.UsingHorn:
-                animator.SetTrigger(BlowingHorn);
-                break;
-            case PlayerState.OpeningPackage:
-                animator.SetTrigger(OpenPackage);
-                break;
-        }
-    }
     
-    
-    private void PlayJumpedActionAnimation()
-    {
-        Tween.PunchScale(modelTransform, Vector3.one * 1.1f, jumpDuration, 1);
-    }
 
     private void HandleVerticalViewDirection()
     {
