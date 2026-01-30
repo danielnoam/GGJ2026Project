@@ -54,11 +54,12 @@ Material:
     - _Fullscreen_DstColorBlend: 10
     - _Fullscreen_SrcAlphaBlend: 1
     - _Fullscreen_SrcColorBlend: 5
-    - _Intensity: 10
+    - _Intensity: 3.92
     - _Power: 5
     - _Strength: 1
+    - _Visibility: 1
     m_Colors:
-    - _Color: {r: 2, g: 0.7456777, b: 0, a: 1}
+    - _Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
     - _Noise_Scroll_Speed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Noise_Tiling: {r: 2, g: 2, b: 0, a: 0}
     - _Scroll_Speed: {r: 0.1, g: 0.1, b: 0, a: 0}
