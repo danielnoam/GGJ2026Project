@@ -7,9 +7,11 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerControllerInput))]
 public class PlayerAnimator : MonoBehaviour
 {
+    private static readonly int StartWalking = Animator.StringToHash("StartWalking");
+    private static readonly int StopWalking = Animator.StringToHash("StopWalking");
 
-    
     [Header("Change Direction Animation")] 
+    [SerializeField] private float verticalDirectionRotation = 30f;
     [SerializeField] private float directionDuration = 0.15f;
     [SerializeField] private Ease directionEase = Ease.InOutCubic;
 
@@ -19,6 +21,7 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField, ReadOnly] private bool facingLeft;
     [SerializeField, ReadOnly] private bool facingUp;
     [SerializeField, ReadOnly] private bool facingDown;
+    [SerializeField, ReadOnly] private bool isWalking;
 
     private PlayerControllerInput _input;
     private Sequence _rotationTween;
@@ -26,15 +29,30 @@ public class PlayerAnimator : MonoBehaviour
     private void Awake()
     {
         _input = GetComponent<PlayerControllerInput>();
-        modelTransform.eulerAngles = new Vector3(0f, 180f, 0f);
     }
     
     private void Update()
     {
+        HandleMovementAnimation();
         HandleHorizontalViewDirection();
         HandleVerticalViewDirection();
     }
     
+    private void HandleMovementAnimation()
+    {
+        bool hasInput = _input.MoveInput.sqrMagnitude > 0.01f;
+    
+        if (hasInput && !isWalking)
+        {
+            isWalking = true;
+            animator.SetTrigger(StartWalking);
+        }
+        else if (!hasInput && isWalking)
+        {
+            isWalking = false;
+            animator.SetTrigger(StopWalking);
+        }
+    }
     
 
     private void HandleVerticalViewDirection()
@@ -83,7 +101,7 @@ public class PlayerAnimator : MonoBehaviour
         }
     } 
 
-    private void AnimateRotation(bool withPunchScale)
+    private void AnimateRotation(bool slower)
     {
         if (_rotationTween.isAlive)
         {
@@ -92,23 +110,17 @@ public class PlayerAnimator : MonoBehaviour
 
         var targetRotation = GetTargetRotation();
         _rotationTween = Sequence.Create();
-        
-        if (withPunchScale)
-        {
-            _rotationTween.Group(Tween.LocalRotation(modelTransform, Quaternion.Euler(targetRotation), directionDuration, directionEase));
-            _rotationTween.Group(Tween.PunchScale(modelTransform, Vector3.one * 1.1f, directionDuration * 1.5f, 1));
-            
-        }
-        else
-        {
-            _rotationTween.Group(Tween.LocalRotation(modelTransform, Quaternion.Euler(targetRotation), directionDuration * 0.5f, directionEase));
-        }
+
+        _rotationTween.Group(slower
+            ? Tween.LocalRotation(modelTransform, Quaternion.Euler(targetRotation), directionDuration, directionEase)
+            : Tween.LocalRotation(modelTransform, Quaternion.Euler(targetRotation), directionDuration * 0.5f,
+                directionEase));
     }
 
     private Vector3 GetTargetRotation()
     {
-        float horizontalAngle = facingLeft ? 0f : 180f;
-        float verticalAngle = facingUp ? -30f : (facingDown ? 30f : 0f);
+        float horizontalAngle = facingLeft ? 180f : 0f;
+        float verticalAngle = facingUp ? -verticalDirectionRotation : (facingDown ? verticalDirectionRotation : 0f);
         float angleMultiplier = facingLeft ? -1f : 1f;
         
         return new Vector3(0f, horizontalAngle + (verticalAngle * angleMultiplier), 0f);

@@ -13,12 +13,4 @@ MonoBehaviour:
   m_Name: Knife
   m_EditorClassIdentifier: Assembly-CSharp::SOItem
   name: Knife
-  description: 
-  icon: {fileID: 21300000, guid: bcb20d686d861ec4f9e33eeae8c7ca21, type: 3}
-  actionsOnUse:
-  - rid: -2
-  references:
-    version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+  icon: {fileID: 21300000, guid: 094b061fd963b514ebfc24b289cecc26, type: 3}

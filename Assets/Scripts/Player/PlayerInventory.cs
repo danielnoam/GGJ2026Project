@@ -154,6 +154,11 @@ public class PlayerInventory : MonoBehaviour
         {
             equippedItem = null;
         }
+
+        if (!equippedItem && allItems.Count > 0)
+        {
+            equippedItem = allItems.First();
+        }
         
         GameEvents.InventoryChanged(this);
     }

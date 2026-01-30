@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5219186878172622873, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d07fa92b8bdbd6f439b133de3dd73ae5, type: 3}
     - target: {fileID: 6371892025839425530, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: m_Name
       value: Shovel
