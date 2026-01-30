@@ -36,11 +36,7 @@ public class PlayerInventory : MonoBehaviour
         _input = GetComponent<PlayerControllerInput>();
         _playerController = GetComponent<PlayerController>();
     }
-
-    private void Start()
-    {
-        GameEvents.InventoryChanged(this);
-    }
+    
 
     private void OnEnable()
     {
@@ -122,7 +118,6 @@ public class PlayerInventory : MonoBehaviour
     public void Clear()
     {
         allItems.Clear();
-        GameEvents.InventoryChanged(this);
     }
     
     public SOItem GetItemAtIndex(int index)
@@ -145,12 +140,9 @@ public class PlayerInventory : MonoBehaviour
 
     private void OnItemAdded(SOItem item)
     {
-        GameEvents.ItemObtained(item);
-        
         if (!equippedItem)
         {
             equippedItem = item;
-            GameEvents.ItemEquipped(equippedItem);
         }
         
         GameEvents.InventoryChanged(this);
@@ -161,10 +153,8 @@ public class PlayerInventory : MonoBehaviour
         if (equippedItem == item)
         {
             equippedItem = null;
-            GameEvents.ItemEquipped(equippedItem);
         }
-
-        GameEvents.ItemRemoved(item);
+        
         GameEvents.InventoryChanged(this);
     }
 }

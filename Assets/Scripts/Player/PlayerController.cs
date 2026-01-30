@@ -35,13 +35,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField, ReadOnly] private float coyoteTimer;
     [SerializeField, ReadOnly] private bool isGrounded;
     [SerializeField, ReadOnly] private bool hitCeiling;
-    [SerializeField, ReadOnly] private MovingPlatform currentPlatform;
     [SerializeField, ReadOnly] private bool allowControl = true;
-    [SerializeField] private PlayerState currentState = PlayerState.Normal;
+
 
     private CharacterController _controller;
     private PlayerControllerInput _input;
-    private Vector3 _platformVelocity;
     
     public bool IsGrounded => isGrounded;
     public bool AllowControl => allowControl;
@@ -61,40 +59,8 @@ public class PlayerController : MonoBehaviour
         _controller = GetComponent<CharacterController>();
         _input = GetComponent<PlayerControllerInput>();
     }
-
-    private void OnEnable()
-    {
-        CleaningAnimationBehavior.OnStateEntered += BlockedMovementBehaviorEntered;
-        CleaningAnimationBehavior.OnStateExited += BlockedMovementBehaviorExited;
-        OpeningPackageAnimationBehavior.OnStateEntered += BlockedMovementBehaviorEntered;
-        OpeningPackageAnimationBehavior.OnStateExited += BlockedMovementBehaviorExited;
-    }
-
-    private void OnDisable()
-    {
-        CleaningAnimationBehavior.OnStateEntered -= BlockedMovementBehaviorEntered;
-        CleaningAnimationBehavior.OnStateExited -= BlockedMovementBehaviorExited;
-        OpeningPackageAnimationBehavior.OnStateExited -= BlockedMovementBehaviorExited;
-        OpeningPackageAnimationBehavior.OnStateEntered -= BlockedMovementBehaviorEntered;
-    }
-
-    public void SetState(PlayerState newState)
-    {
-        currentState = newState;
-        GameEvents.PlayerStateChanged(currentState);
-    }
     
-    private void BlockedMovementBehaviorEntered()
-    {
-        allowControl = false;
-        velocity = Vector3.zero;
-    }
     
-    private void BlockedMovementBehaviorExited()
-    {
-        SetState(PlayerState.Normal);
-        allowControl = true;
-    }
 
     private void OnJumpAction(InputAction.CallbackContext context)
     {
@@ -119,18 +85,11 @@ public class PlayerController : MonoBehaviour
         {
             coyoteTimer -= Time.deltaTime;
         }
-        
-        if (_input.MoveInput != Vector2.zero && isGrounded)
-        {
-            GameEvents.WalkedAction();
-        }
-        
     }
 
     private void FixedUpdate()
     {
         CheckCollisions();
-        CheckForPlatform();
         HandleGravity();
         HandleJump();
         HandleMovement();   
@@ -143,7 +102,7 @@ public class PlayerController : MonoBehaviour
         velocity.x = _input.MoveInput.x * moveSpeed;
         velocity.z = _input.MoveInput.y * moveSpeed;
     
-        Vector3 finalVelocity = velocity + _platformVelocity;
+        Vector3 finalVelocity = velocity;
         _controller.Move(finalVelocity * Time.fixedDeltaTime);
     }
 
@@ -170,7 +129,6 @@ public class PlayerController : MonoBehaviour
             velocity.y = jumpForce;
             jumpBufferTimer = 0;
             coyoteTimer = 0;
-            GameEvents.JumpedAction();
         }
     }
 
@@ -188,30 +146,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void CheckForPlatform()
-    {
-        if (!isGrounded)
-        {
-            currentPlatform = null;
-            _platformVelocity = Vector3.zero;
-            return;
-        }
 
-        var colliders = Physics.OverlapSphere(transform.position + groundCheckOffset, groundCheckRadius, collisionLayer, QueryTriggerInteraction.Ignore);
-        
-        foreach (var col in colliders)
-        {
-            if (col.TryGetComponent(out MovingPlatform platform))
-            {
-                currentPlatform = platform;
-                _platformVelocity = platform.Velocity;
-                return;
-            }
-        }
-
-        currentPlatform = null;
-        _platformVelocity = Vector3.zero;
-    }
     
     public void ForceJump(float force)
     {

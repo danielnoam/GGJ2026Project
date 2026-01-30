@@ -35,7 +35,6 @@ public abstract class InteractableBase : MonoBehaviour, IInteractable
         
         hasInteracted = true;
         
-        GameEvents.InteractedWith(this);
         OnInteract(interactorData);
 
         foreach (InteractPossibility interactPossibility in interactPossibilities)

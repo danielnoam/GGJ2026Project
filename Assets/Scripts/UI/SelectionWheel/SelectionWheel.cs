@@ -29,7 +29,6 @@ namespace UI
         {
             GameEvents.OnItemEquipped += OnItemEquipped;
             GameEvents.OnInventoryChanged += OnInventoryChanged;
-            GameEvents.OnItemUsed += OnItemUsed;
         }
         
 
@@ -37,7 +36,6 @@ namespace UI
         {
             GameEvents.OnItemEquipped -= OnItemEquipped;
             GameEvents.OnInventoryChanged -= OnInventoryChanged;
-            GameEvents.OnItemUsed -= OnItemUsed;
         }
 
         private void OnItemEquipped(SOItem item)
