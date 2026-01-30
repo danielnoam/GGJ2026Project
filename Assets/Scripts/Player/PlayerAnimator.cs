@@ -7,8 +7,11 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerControllerInput))]
 public class PlayerAnimator : MonoBehaviour
 {
+    public static PlayerAnimator Instance;
+    
     private static readonly int StartWalking = Animator.StringToHash("StartWalking");
     private static readonly int StopWalking = Animator.StringToHash("StopWalking");
+    private static readonly int Pickup = Animator.StringToHash("Pickup");
 
     [Header("Change Direction Animation")] 
     [SerializeField] private float verticalDirectionRotation = 30f;
@@ -28,6 +31,14 @@ public class PlayerAnimator : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        
+        Instance = this;
+        
         _input = GetComponent<PlayerControllerInput>();
     }
     
@@ -52,6 +63,11 @@ public class PlayerAnimator : MonoBehaviour
             isWalking = false;
             animator.SetTrigger(StopWalking);
         }
+    }
+
+    public void PlayPickUpAnimation()
+    {
+        animator.SetTrigger(Pickup);
     }
     
 
