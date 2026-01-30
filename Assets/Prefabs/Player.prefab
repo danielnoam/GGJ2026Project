@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f32e060b338c6c43934b8081c6d9186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimator
-  verticalDirectionRotation: 30
+  verticalDirectionRotation: 10
   directionDuration: 0.1
   directionEase: 10
   modelTransform: {fileID: 3571177696892461628}
@@ -216,6 +216,7 @@ MonoBehaviour:
   facingLeft: 0
   facingUp: 0
   facingDown: 0
+  isWalking: 0
 --- !u!1 &3186387088022666804
 GameObject:
   m_ObjectHideFlags: 0
