@@ -35,7 +35,7 @@ public class RitualController : MonoBehaviour
     // Called by Timeline Signal at 2:40 - selects weapon and triggers animation on cult leader
     public void OnSelectWeapon()
     {
-        if (enableDebugLogs) Debug.Log("[RitualController] Selecting weapon path at 2:40");
+        if (enableDebugLogs) Debug.Log("[RitualController] Selecting weapon");
         
         // Determine highest priority available weapon from registry
         selectedWeapon = DetermineAvailableWeapon();

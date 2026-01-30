@@ -18,9 +18,6 @@ public class RitualWeaponRegistry : MonoBehaviour
     [SerializeField] private bool choirAlive = true;
     [SerializeField] private ChoirGroupController choirGroup;
     
-    [Header("Debug")]
-    [SerializeField] private bool enableDebugLogs = false;
-    
     public bool KnifeAvailable => knifeAvailable;
     public bool ShovelAvailable => shovelAvailable;
     public bool IncenseAvailable => incenseAvailable;
