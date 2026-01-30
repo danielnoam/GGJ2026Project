@@ -68,15 +68,15 @@ public class RitualController : MonoBehaviour
         // Second priority: Axe
         if (RitualWeaponRegistry.Instance.ShovelAvailable)
         {
-            if (enableDebugLogs) Debug.Log("[RitualController] Axe is available");
-            return WeaponType.Axe;
+            if (enableDebugLogs) Debug.Log("[RitualController] Shovel is available");
+            return WeaponType.Shovel;
         }
         
         // Third priority: Choir Weapon (only if choir is alive)
         if (RitualWeaponRegistry.Instance.ChoirAlive)
         {
             if (enableDebugLogs) Debug.Log("[RitualController] Choir weapon is available");
-            return WeaponType.ChoirWeapon;
+            return WeaponType.Cello;
         }
            
 
@@ -115,5 +115,5 @@ public class RitualController : MonoBehaviour
         }
     }
 
-    public enum WeaponType { None, Knife, Axe, ChoirWeapon, Incense }
+    public enum WeaponType { None, Knife, Shovel, Cello, Incense }
 }

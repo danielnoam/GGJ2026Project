@@ -12,6 +12,7 @@ public class RitualWeaponRegistry : MonoBehaviour
     [Header("Weapon Availability")]
     [SerializeField] private bool knifeAvailable = true;
     [SerializeField] private bool shovelAvailable = true;
+    [SerializeField] private bool celloAvailable = true;
     [SerializeField] private bool incenseAvailable = true;
     
     [Header("Choir Status")]
@@ -42,6 +43,12 @@ public class RitualWeaponRegistry : MonoBehaviour
     private void OnDisable()
     {
         GameEvents.OnWeaponPrevented -= OnWeaponPrevented;
+    }
+
+    public void SetCelloUnavailable()
+    {
+        celloAvailable = false;
+        choirAlive = false;
     }
 
     private void OnWeaponPrevented(RitualWeapon ritualWeapon)

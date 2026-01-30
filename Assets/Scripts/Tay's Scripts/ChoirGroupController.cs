@@ -10,10 +10,12 @@ public class ChoirGroupController : MonoBehaviour
 {
     [Header("Choir Members")]
     [SerializeField] private List<ChoirMember> choirMembers = new List<ChoirMember>();
+
+    [SerializeField] private RitualWeaponRegistry disableWeapon;
     
     [Header("Poison Settings")]
-    [SerializeField] private float deathDelayAfterDrinking = 3f;
-    [SerializeField] private float delayBetweenDeath = 1f;
+    [SerializeField] private float deathDelayAfterDrinking = 0.5f;
+    [SerializeField] private float delayBetweenDeath = 0.25f;
     
     [Header("Debug")]
     [SerializeField] private bool enableDebugLogs = false;
@@ -25,7 +27,6 @@ public class ChoirGroupController : MonoBehaviour
     {
         isPoisoned = true;
         
-        
         if (enableDebugLogs) Debug.Log("[ChoirGroupController] Choir has been poisoned");
     }
 
@@ -36,6 +37,7 @@ public class ChoirGroupController : MonoBehaviour
         
         if (isPoisoned)
         {
+            disableWeapon.SetCelloUnavailable();
             StartCoroutine(TriggerDeathSequence());
         }
     }
