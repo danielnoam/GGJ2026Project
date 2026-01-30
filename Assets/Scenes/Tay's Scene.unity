@@ -625,7 +625,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
-  m_InitialTime: 0
+  m_InitialTime: 85
   m_SceneBindings:
   - key: {fileID: 2334570338122595961, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
     value: {fileID: 1783668832}
@@ -639,6 +639,8 @@ PlayableDirector:
     value: {fileID: 1059003789}
   - key: {fileID: 4350492967442331772, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
     value: {fileID: 1502534798}
+  - key: {fileID: 3856954974747695408, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 1424431570}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &419210838
@@ -1919,6 +1921,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f10b3b62877ae4a9420ffe07671aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChoirMember
+--- !u!1 &1308576591 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 718210013503764477, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+  m_PrefabInstance: {fileID: 1896004942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1308576595 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8627739001442713018, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+  m_PrefabInstance: {fileID: 1896004942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &1308576596
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308576591}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1315557066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,6 +2146,146 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1145625035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1424431565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1424431566}
+  - component: {fileID: 1424431568}
+  - component: {fileID: 1424431567}
+  - component: {fileID: 1424431569}
+  - component: {fileID: 1424431570}
+  m_Layer: 5
+  m_Name: ScreenHider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1424431566
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424431565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1308576595}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1424431567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424431565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1424431568
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424431565}
+  m_CullTransparentMesh: 1
+--- !u!114 &1424431569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424431565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b384dded8385cb4a905ecdf14902740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScreenFadeController
+  fadeCanvasGroup: {fileID: 1308576596}
+  fadeImage: {fileID: 1424431567}
+  fadeOutDuration: 1
+  fadeInDuration: 1
+  fadeEase: 4
+  enableDebugLogs: 0
+--- !u!114 &1424431570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424431565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 04456e311d2c4874f82a31185bf9d2b6, type: 2}
+    - {fileID: 11400000, guid: 72988422c8a0d1d488e558eb29ece3cf, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1424431569}
+          m_TargetAssemblyTypeName: ScreenFadeController, Assembly-CSharp
+          m_MethodName: FadeIn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1424431569}
+          m_TargetAssemblyTypeName: ScreenFadeController, Assembly-CSharp
+          m_MethodName: FadeOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &1502534794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2660,8 +2824,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8627739001442713018, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1424431566}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 718210013503764477, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1308576596}
   m_SourcePrefab: {fileID: 100100000, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
 --- !u!1 &1905614198
 GameObject:
@@ -3171,10 +3341,10 @@ SceneRoots:
   - {fileID: 1145625035}
   - {fileID: 1158923713}
   - {fileID: 367956462}
+  - {fileID: 2099677618}
+  - {fileID: 2081124146}
+  - {fileID: 745644485}
   - {fileID: 1783668833}
   - {fileID: 760268357}
   - {fileID: 717903645}
   - {fileID: 419210838}
-  - {fileID: 2099677618}
-  - {fileID: 2081124146}
-  - {fileID: 745644485}
