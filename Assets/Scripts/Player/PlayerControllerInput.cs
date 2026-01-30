@@ -100,6 +100,11 @@ public class PlayerControllerInput : MonoBehaviour
         
         OnCycleItemsAction?.Invoke(context);
     }
+
+    public void ResetInput()
+    {
+        moveInput = Vector2.zero;
+    }
     
 
     /// <summary>
