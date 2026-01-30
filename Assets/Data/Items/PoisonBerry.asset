@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PoisonBerry
   m_EditorClassIdentifier: Assembly-CSharp::SOItem
   name: PoisonBerry
-  icon: {fileID: 21300000, guid: b8aa19a2decdadb44a16c01195bad266, type: 3}
+  icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
