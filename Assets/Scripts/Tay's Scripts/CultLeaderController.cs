@@ -11,7 +11,7 @@ public class CultLeaderController : MonoBehaviour
     
     [Header("Animation Trigger Names")]
     [SerializeField] private string knifeAnimationTrigger = "FetchKnife";
-    [SerializeField] private string axeAnimationTrigger = "FetchAxe";
+    [SerializeField] private string shovelAnimationTrigger = "FetchShovel";
     [SerializeField] private string choirWeaponAnimationTrigger = "FetchChoirWeapon";
     [SerializeField] private string incenseAnimationTrigger = "FetchIncense";
     [SerializeField] private string noWeaponAnimationTrigger = "NoWeapon";
@@ -44,8 +44,8 @@ public class CultLeaderController : MonoBehaviour
         string triggerToPlay = weapon switch
         {
             RitualController.WeaponType.Knife => knifeAnimationTrigger,
-            RitualController.WeaponType.Axe => axeAnimationTrigger,
-            RitualController.WeaponType.ChoirWeapon => choirWeaponAnimationTrigger,
+            RitualController.WeaponType.Shovel => shovelAnimationTrigger,
+            RitualController.WeaponType.Cello => choirWeaponAnimationTrigger,
             RitualController.WeaponType.Incense => incenseAnimationTrigger,
             _ => noWeaponAnimationTrigger
         };
