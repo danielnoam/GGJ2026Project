@@ -4,7 +4,7 @@ using DNExtensions.Utilities.Button;
 using UI;
 using UnityEngine;
 
-public class NPC : Interactable
+public class NPC : InteractableBase
 {
     [Header("NPC Settings")]
     [SerializeField] private new string name = "NPC";

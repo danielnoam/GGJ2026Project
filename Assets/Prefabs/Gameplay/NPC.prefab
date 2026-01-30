@@ -94,15 +94,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   canInteract: 1
   limitInteractionsToOnce: 0
-  actionsOnInteract: []
+  interactPossibilities: []
   hasInteracted: 0
   interactableID: d6f638df-b5a3-43fc-8afd-33ab79d53a34
   name: Someone generic
   speechCooldown: 1.5
   speechCooldownTimer: 0
   playProximityDialogue: 1
-  greetingDialogueLines: {fileID: 11400000, guid: d1069709181f39945a507b07a7027b38, type: 2}
-  farewellDialogueLines: {fileID: 11400000, guid: 91c44b8693f34bc438b116cab4dc640c, type: 2}
+  greetingDialogueLines: {fileID: 0}
+  farewellDialogueLines: {fileID: 0}
   references:
     version: 2
     RefIds: []
@@ -116,7 +116,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6118432135469856453}
   - component: {fileID: 7134277831697153433}
-  - component: {fileID: 3693518251530294520}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -132,7 +131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3175554852424676510}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -165,7 +164,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1240feff46cdc3b4a930a34c1d2e5c75, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -189,7 +188,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.16014159, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.3254717, g: 0.3254717, b: 0.3254717, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -198,20 +197,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &3693518251530294520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3175554852424676510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32cdebe090e04906b5c26d57a4f32bad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp-firstpass::ShadowCastingSprite
-  receiveShadows: 1
-  castShadows: 1
 --- !u!1 &3887593225354985119
 GameObject:
   m_ObjectHideFlags: 0

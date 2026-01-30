@@ -7,7 +7,7 @@ using UnityEngine;
 [SerializableSelectorName("Interact Sequence", "Interactable")]
 public class InteractSequenceObjective : MissionObjective
 {
-    [SerializeField] private Interactable[] requiredSequence;
+    [SerializeField] private InteractableBase[] requiredSequence;
     
     private string[] targetIDs;
     private int currentIndex;
@@ -44,7 +44,7 @@ public class InteractSequenceObjective : MissionObjective
         return currentIndex >= requiredSequence.Length;
     }
     
-    private void OnInteraction(Interactable interactable)
+    private void OnInteraction(InteractableBase interactable)
     {
         if (currentIndex >= targetIDs.Length) return;
         

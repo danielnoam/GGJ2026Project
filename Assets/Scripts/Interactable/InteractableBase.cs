@@ -15,7 +15,7 @@ public class InteractPossibility
 
 [SelectionBase]
 [DisallowMultipleComponent]
-public abstract class Interactable : MonoBehaviour, IInteractable
+public abstract class InteractableBase : MonoBehaviour, IInteractable
 {
     [Header("Interactable Settings")]
     [SerializeField] private bool canInteract = true;

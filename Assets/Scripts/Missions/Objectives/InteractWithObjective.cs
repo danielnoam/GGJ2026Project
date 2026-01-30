@@ -7,7 +7,7 @@ using UnityEngine;
 [SerializableSelectorName("Interact With", "Interactable")]
 public class InteractWithObjective : MissionObjective
 {
-    [SerializeField] private Interactable interactableReference;
+    [SerializeField] private InteractableBase interactableReference;
     
     private string targetID;
     
@@ -42,7 +42,7 @@ public class InteractWithObjective : MissionObjective
         return false;
     }
     
-    private void OnInteractedWith(Interactable interactable)
+    private void OnInteractedWith(InteractableBase interactable)
     {
         if (interactable && interactable.InteractableID == targetID)
         {
