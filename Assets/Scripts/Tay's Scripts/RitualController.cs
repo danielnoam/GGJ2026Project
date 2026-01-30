@@ -66,7 +66,7 @@ public class RitualController : MonoBehaviour
         }
         
         // Second priority: Axe
-        if (RitualWeaponRegistry.Instance.AxeAvailable)
+        if (RitualWeaponRegistry.Instance.ShovelAvailable)
         {
             if (enableDebugLogs) Debug.Log("[RitualController] Axe is available");
             return WeaponType.Axe;

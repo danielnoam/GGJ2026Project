@@ -1,3 +1,4 @@
+using System;
 using DNExtensions.Utilities.Button;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ public class RitualWeaponRegistry : MonoBehaviour
     
     [Header("Weapon Availability")]
     [SerializeField] private bool knifeAvailable = true;
-    [SerializeField] private bool axeAvailable = true;
+    [SerializeField] private bool shovelAvailable = true;
     [Header("Choir Status")]
     [SerializeField] private bool choirAlive = true;
     
@@ -22,7 +23,7 @@ public class RitualWeaponRegistry : MonoBehaviour
     [SerializeField] private bool enableDebugLogs = false;
     
     public bool KnifeAvailable => knifeAvailable;
-    public bool AxeAvailable => axeAvailable;
+    public bool ShovelAvailable => shovelAvailable;
     public bool IncenseAvailable => incenseAvailable;
     public bool ChoirAlive => choirAlive;
 
@@ -37,39 +38,39 @@ public class RitualWeaponRegistry : MonoBehaviour
         Instance = this;
     }
 
-    // Called by MarkWeaponStolenAction when knife is picked up
-    public void MarkKnifeStolen()
+    private void OnEnable()
     {
-        knifeAvailable = false;
-        if (enableDebugLogs) Debug.Log("[RitualWeaponRegistry] Knife marked as stolen");
+        GameEvents.OnWeaponPrevented += OnWeaponPrevented;
     }
 
-    // Called by MarkWeaponStolenAction when axe is picked up
-    public void MarkAxeStolen()
+    private void OnDisable()
     {
-        axeAvailable = false;
-        if (enableDebugLogs) Debug.Log("[RitualWeaponRegistry] Axe marked as stolen");
+        GameEvents.OnWeaponPrevented -= OnWeaponPrevented;
     }
 
-    // Called by SabotageIncenseAction when incense is sabotaged
-    public void MarkIncenseSabotaged()
+    private void OnWeaponPrevented(RitualWeapon ritualWeapon)
     {
-        incenseAvailable = false;
-        if (enableDebugLogs) Debug.Log("[RitualWeaponRegistry] Incense marked as sabotaged");
-    }
-
-    // Called by PoisonChoirAction when drinks are poisoned
-    public void MarkChoirPoisoned()
-    {
-        choirAlive = false;
-        if (enableDebugLogs) Debug.Log("[RitualWeaponRegistry] Choir marked as poisoned");
+        switch (ritualWeapon)
+        {
+            case RitualWeapon.Knife:
+                knifeAvailable = false;
+                break;
+            case RitualWeapon.Shovel:
+                shovelAvailable = false;
+                break;
+            case RitualWeapon.Cello:
+                choirAlive = false;
+                break;
+            case RitualWeapon.IncenseBurner:
+                incenseAvailable = false;
+                break;
+        }
     }
     
-    // Reset for testing or restarting ritual
     public void ResetWeapons()
     {
         knifeAvailable = true;
-        axeAvailable = true;
+        shovelAvailable = true;
         incenseAvailable = true;
         choirAlive = true;
         
@@ -79,7 +80,6 @@ public class RitualWeaponRegistry : MonoBehaviour
     [Button]
     public void PoisonChoir()
     {
-        // Notify choir group for death animation sequence
         choirGroup.PoisonChoir();
     }
 }
