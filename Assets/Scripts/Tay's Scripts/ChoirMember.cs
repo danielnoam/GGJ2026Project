@@ -6,6 +6,7 @@ using UnityEngine;
 public class ChoirMember : MonoBehaviour
 {
     [SerializeField] private Animator animator;
+    private float animationDuration;
     [SerializeField] private string deathAnimationTrigger = "Die";
     
     [Header("Debug")]
@@ -14,11 +15,14 @@ public class ChoirMember : MonoBehaviour
     // Triggers the death animation (falling down sprite animation)
     public void Die()
     {
+        animationDuration = animator.GetCurrentAnimatorStateInfo(0).length;
         if (enableDebugLogs) Debug.Log($"[ChoirMember] {gameObject.name} dying");
         
         if (animator != null)
         {
             animator.SetTrigger(deathAnimationTrigger);
         }
+
+        Destroy(animator, animationDuration);
     }
 }

@@ -30,7 +30,7 @@ public class ChoirGroupController : MonoBehaviour
     // Called by Timeline Signal at 2:00 when choir drinks
     public void OnChoirDrinks()
     {
-        if (enableDebugLogs) Debug.Log("[ChoirGroupController] Choir drinking at 2:00");
+        if (enableDebugLogs) Debug.Log("[ChoirGroupController] Choir drinking");
         
         if (isPoisoned)
         {

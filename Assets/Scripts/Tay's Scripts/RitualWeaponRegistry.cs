@@ -77,12 +77,9 @@ public class RitualWeaponRegistry : MonoBehaviour
     }
 
     [Button]
-    public void KillChoir()
+    public void PoisonChoir()
     {
         // Notify choir group for death animation sequence
         choirGroup.PoisonChoir();
-        MarkChoirPoisoned();
-        choirGroup.OnChoirDrinks();
-        choirAlive = false;
     }
 }
