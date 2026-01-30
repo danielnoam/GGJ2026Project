@@ -346,6 +346,92 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: fd0968596469e44488df2e7d2fabdd1c, type: 3}
   m_PrefabInstance: {fileID: 38594012}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &45824823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 45824826}
+  - component: {fileID: 45824825}
+  - component: {fileID: 45824824}
+  m_Layer: 0
+  m_Name: Choir Members
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &45824824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45824823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 75831373d2586b54f9b435649472517b, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 45824825}
+          m_TargetAssemblyTypeName: ChoirGroupController, Assembly-CSharp
+          m_MethodName: OnChoirDrinks
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &45824825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45824823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18df6d2824dc22d48b963c102ccb5a10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChoirGroupController
+  choirMembers:
+  - {fileID: 1139747203}
+  - {fileID: 1960467888}
+  - {fileID: 844161244}
+  deathDelayAfterDrinking: 0.25
+  delayBetweenDeath: 0.2
+  enableDebugLogs: 1
+  isPoisoned: 0
+--- !u!4 &45824826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45824823}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1139747204}
+  - {fileID: 1960467889}
+  - {fileID: 844161245}
+  m_Father: {fileID: 745814262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &50997239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2226,6 +2312,106 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24cfa772a8e3dca4b84e8f77f4b5f671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColliderGizmo
+--- !u!1 &428121987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 428121991}
+  - component: {fileID: 428121990}
+  - component: {fileID: 428121989}
+  - component: {fileID: 428121988}
+  m_Layer: 0
+  m_Name: Ritual Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &428121988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428121987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: cc5f3de2889b16c42b9d4673e31a8b08, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 428121989}
+          m_TargetAssemblyTypeName: RitualController, Assembly-CSharp
+          m_MethodName: OnSelectWeapon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &428121989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428121987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d755872cf48c845a2419e0c4e4c70c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RitualController
+  ritualTimeline: {fileID: 1724253182}
+  cultLeader: {fileID: 0}
+  outcomeAnimator: {fileID: 0}
+  winAnimationTrigger: PlayerWins
+  loseAnimationTrigger: PlayerLoses
+  enableDebugLogs: 1
+--- !u!114 &428121990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428121987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db66a6e14096d74c95fd7190f999265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RitualWeaponRegistry
+  knifeAvailable: 1
+  shovelAvailable: 1
+  incenseAvailable: 1
+  choirAlive: 1
+  choirGroup: {fileID: 45824825}
+  enableDebugLogs: 1
+--- !u!4 &428121991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428121987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &451251225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3772,6 +3958,7 @@ Transform:
   - {fileID: 1468239221}
   - {fileID: 1614473237}
   - {fileID: 451251226}
+  - {fileID: 45824826}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &752551102
@@ -4385,6 +4572,67 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: 4695bb4635c5b854888299be388c8c23, type: 3}
   m_PrefabInstance: {fileID: 841336536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &844161243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 45824826}
+    m_Modifications:
+    - target: {fileID: 1119440730935149688, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119440730935149688, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800710696399164494, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_Name
+      value: Choir Member Holder (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+--- !u!114 &844161244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4960510344499991686, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+  m_PrefabInstance: {fileID: 844161243}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f10b3b62877ae4a9420ffe07671aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChoirMember
+--- !u!4 &844161245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+  m_PrefabInstance: {fileID: 844161243}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &868070363
 PrefabInstance:
@@ -5867,6 +6115,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: fd0968596469e44488df2e7d2fabdd1c, type: 3}
   m_PrefabInstance: {fileID: 1130349150}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1139747202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 45824826}
+    m_Modifications:
+    - target: {fileID: 1119440730935149688, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119440730935149688, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.039999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800710696399164494, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_Name
+      value: Choir Member Holder
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+--- !u!114 &1139747203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4960510344499991686, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+  m_PrefabInstance: {fileID: 1139747202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f10b3b62877ae4a9420ffe07671aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChoirMember
+--- !u!4 &1139747204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+  m_PrefabInstance: {fileID: 1139747202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1156759684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7151,6 +7464,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: 83f5ed3189b1c5745a607acc2f886168, type: 3}
   m_PrefabInstance: {fileID: 1414657564}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1415363362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1415363364}
+  - component: {fileID: 1415363363}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1415363363
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415363362}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 3568bedb4be40fb46ad868f2723b906d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1415363364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415363362}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.90914, y: 0, z: 7.1461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1416146704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8970,6 +9412,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: 83f5ed3189b1c5745a607acc2f886168, type: 3}
   m_PrefabInstance: {fileID: 1706293769}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1724253181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1724253183}
+  - component: {fileID: 1724253182}
+  m_Layer: 0
+  m_Name: Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1724253182
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724253181}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 85
+  m_SceneBindings:
+  - key: {fileID: 2334570338122595961, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6477378964449411184, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7855226936883398618, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1351637364952963192, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2646437747405349717, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4350492967442331772, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3856954974747695408, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &1724253183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724253181}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736201044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10663,6 +11168,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: 83f5ed3189b1c5745a607acc2f886168, type: 3}
   m_PrefabInstance: {fileID: 1955462007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1960467887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 45824826}
+    m_Modifications:
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800710696399164494, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+      propertyPath: m_Name
+      value: Choir Member Holder (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+--- !u!114 &1960467888 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4960510344499991686, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+  m_PrefabInstance: {fileID: 1960467887}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f10b3b62877ae4a9420ffe07671aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChoirMember
+--- !u!4 &1960467889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6443990021087273177, guid: 2f4399d4b1955614d8e8076afcd37b79, type: 3}
+  m_PrefabInstance: {fileID: 1960467887}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1966762796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12211,3 +12769,6 @@ SceneRoots:
   - {fileID: 1424431566}
   - {fileID: 745814262}
   - {fileID: 16949354}
+  - {fileID: 428121991}
+  - {fileID: 1724253183}
+  - {fileID: 1415363364}

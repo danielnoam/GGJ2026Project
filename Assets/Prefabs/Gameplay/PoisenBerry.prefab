@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3564869202082370427, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57.1
+      value: -15.78
       objectReference: {fileID: 0}
     - target: {fileID: 3564869202082370427, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3564869202082370427, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 56.4
+      value: 50.34
       objectReference: {fileID: 0}
     - target: {fileID: 3564869202082370427, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -102,15 +102,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[0]'
-      value: 4802877485695893591
+      value: 4802877491417186572
       objectReference: {fileID: 0}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[1]'
-      value: 4802877485695893594
+      value: 4802877485695893591
       objectReference: {fileID: 0}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[2]'
-      value: 4802877491417186572
+      value: 4802877485695893594
       objectReference: {fileID: 0}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: managedReferences[4802877485695893594].onExecute.m_PersistentCalls.m_Calls.Array.size

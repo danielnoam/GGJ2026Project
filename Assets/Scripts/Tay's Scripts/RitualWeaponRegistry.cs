@@ -12,11 +12,10 @@ public class RitualWeaponRegistry : MonoBehaviour
     [Header("Weapon Availability")]
     [SerializeField] private bool knifeAvailable = true;
     [SerializeField] private bool shovelAvailable = true;
-    [Header("Choir Status")]
-    [SerializeField] private bool choirAlive = true;
-    
     [SerializeField] private bool incenseAvailable = true;
     
+    [Header("Choir Status")]
+    [SerializeField] private bool choirAlive = true;
     [SerializeField] private ChoirGroupController choirGroup;
     
     [Header("Debug")]
@@ -59,7 +58,7 @@ public class RitualWeaponRegistry : MonoBehaviour
                 shovelAvailable = false;
                 break;
             case RitualWeapon.Cello:
-                choirAlive = false;
+                choirGroup?.PoisonChoir();
                 break;
             case RitualWeapon.IncenseBurner:
                 incenseAvailable = false;
@@ -67,19 +66,4 @@ public class RitualWeaponRegistry : MonoBehaviour
         }
     }
     
-    public void ResetWeapons()
-    {
-        knifeAvailable = true;
-        shovelAvailable = true;
-        incenseAvailable = true;
-        choirAlive = true;
-        
-        if (enableDebugLogs) Debug.Log("[RitualWeaponRegistry] All weapons reset");
-    }
-
-    [Button]
-    public void PoisonChoir()
-    {
-        choirGroup.PoisonChoir();
-    }
 }

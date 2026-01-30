@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using DNExtensions.Utilities;
 
 // Manages the choir group and handles poison death sequence.
 // Controls all choir members as one unit.
@@ -17,12 +18,13 @@ public class ChoirGroupController : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool enableDebugLogs = false;
     
-    private bool isPoisoned = false;
+    [SerializeField,ReadOnly]  private bool isPoisoned = false;
 
     // Called by PoisonChoirAction when player poisons the drinks
     public void PoisonChoir()
     {
         isPoisoned = true;
+        
         
         if (enableDebugLogs) Debug.Log("[ChoirGroupController] Choir has been poisoned");
     }
