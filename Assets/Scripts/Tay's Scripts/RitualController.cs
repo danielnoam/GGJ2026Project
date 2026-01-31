@@ -121,7 +121,11 @@ public class RitualController : MonoBehaviour
     [Button]
     public void RestartScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (selectedWeapon != WeaponType.None)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
     }
 
     public enum WeaponType { None, Knife, Shovel, Cello, Incense }

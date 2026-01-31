@@ -6706,22 +6706,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1686737612}
     m_Modifications:
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.026
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.39100003
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.085
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.98089176
-      objectReference: {fileID: 0}
     - target: {fileID: 108675354151640811, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9815953
@@ -6749,6 +6733,22 @@ PrefabInstance:
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39100003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98089176
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23273,6 +23273,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: cc45a4bfffa06644b802d9ec487fc834, type: 3}
   m_PrefabInstance: {fileID: 1923986374}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1927909784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7091134579072714627, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
+  m_PrefabInstance: {fileID: 5799033735120501566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1927909786 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1900744936060096954, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
+  m_PrefabInstance: {fileID: 5799033735120501566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1927909788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927909784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 5847510410f2951479000704454b71db, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1927909786}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Death
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &1930679539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23961,6 +24001,8 @@ PlayableDirector:
     value: {fileID: 912478118}
   - key: {fileID: 8086773538016322073, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
     value: {fileID: 1943503224}
+  - key: {fileID: 6517450965700847652, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 1927909786}
   m_ExposedReferences:
     m_References:
     - 085eee062b55031468725d0333185ccd: {fileID: 1882138578}
@@ -26090,7 +26132,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7091134579072714627, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1927909788}
   m_SourcePrefab: {fileID: 100100000, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
 --- !u!1001 &6175123354597138326
 PrefabInstance:
