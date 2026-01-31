@@ -149,30 +149,45 @@ namespace UI
         private (Vector2 position, float scale, int siblingIndex, float alpha) CalculatePosition(int itemIndex)
         {
             int count = wheelItems.Count;
+            
+            if (count == 2) // Special case: 2 items side-by-side
+            {
+                bool isSelected = itemIndex == currentIndex;
+                float xOffset = !isSelected ? -radiusX * 0.5f : radiusX * 0.5f;
+                float scale = isSelected ? scaleRange.maxValue : scaleRange.minValue;
+                float alpha = isSelected ? alphaRange.maxValue : alphaRange.minValue;
+                int siblingIndex = isSelected ? 100 : 0;
+        
+                return (new Vector2(xOffset, 0), scale, siblingIndex, alpha);
+            }
+            else // 3+ items: circular layout
+            {
+                
+                int offsetFromCenter = itemIndex - currentIndex;
 
-            int offsetFromCenter = itemIndex - currentIndex;
+                if (offsetFromCenter > count / 2)
+                    offsetFromCenter -= count;
+                else if (offsetFromCenter < -count / 2)
+                    offsetFromCenter += count;
 
-            if (offsetFromCenter > count / 2)
-                offsetFromCenter -= count;
-            else if (offsetFromCenter < -count / 2)
-                offsetFromCenter += count;
+                float anglePerItem = 360f / count;
+                float angle = offsetFromCenter * anglePerItem;
+                float angleRad = angle * Mathf.Deg2Rad;
 
-            float anglePerItem = 360f / count;
-            float angle = offsetFromCenter * anglePerItem;
-            float angleRad = angle * Mathf.Deg2Rad;
+                float x = Mathf.Sin(angleRad) * radiusX;
+                float y = -Mathf.Cos(angleRad) * radiusY;
 
-            float x = Mathf.Sin(angleRad) * radiusX;
-            float y = -Mathf.Cos(angleRad) * radiusY;
+                float normalizedOffset = Mathf.Abs((float)offsetFromCenter / Mathf.Max(1, count / 2));
+                normalizedOffset = Mathf.Clamp01(normalizedOffset);
 
-            float normalizedOffset = Mathf.Abs((float)offsetFromCenter / Mathf.Max(1, count / 2));
-            normalizedOffset = Mathf.Clamp01(normalizedOffset);
+                float scale = Mathf.Lerp(scaleRange.maxValue, scaleRange.minValue, normalizedOffset);
+                float alpha = Mathf.Lerp(alphaRange.maxValue, alphaRange.minValue, normalizedOffset);
 
-            float scale = Mathf.Lerp(scaleRange.maxValue, scaleRange.minValue, normalizedOffset);
-            float alpha = Mathf.Lerp(alphaRange.maxValue, alphaRange.minValue, normalizedOffset);
+                int siblingIndex = Mathf.RoundToInt((1f - normalizedOffset) * 100);
 
-            int siblingIndex = Mathf.RoundToInt((1f - normalizedOffset) * 100);
+                return (new Vector2(x, y), scale, siblingIndex, alpha);
+            }
 
-            return (new Vector2(x, y), scale, siblingIndex, alpha);
         }
     }
 }
