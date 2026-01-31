@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3938486899295094220, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
       propertyPath: m_Name
-      value: PoisenBerryNoBerry Variant
+      value: PoisenBerryNoBerry
       objectReference: {fileID: 0}
     - target: {fileID: 5449958891458648449, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
       propertyPath: m_IsActive
@@ -107,6 +107,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 456532471998809530, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
     - {fileID: 3982115442882413101, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+    - {fileID: 2884529629960119802, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
