@@ -1697,6 +1697,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3336591134209556682, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702779135172671930, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009239130290429265, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8627739001442713018, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4129,6 +4141,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: 29902c0af27d2644f874009d175aeb0a, type: 3}
   m_PrefabInstance: {fileID: 317807305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &317856358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7956578424874194963, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+  m_PrefabInstance: {fileID: 108486342}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &320688742
 PrefabInstance:
@@ -6706,6 +6723,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1686737612}
     m_Modifications:
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39100003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98089176
+      objectReference: {fileID: 0}
     - target: {fileID: 108675354151640811, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9815953
@@ -6733,22 +6766,6 @@ PrefabInstance:
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (45)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.026
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.39100003
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.085
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.98089176
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13623,12 +13640,27 @@ MonoBehaviour:
   m_Events:
     m_Signals:
     - {fileID: 11400000, guid: cc5f3de2889b16c42b9d4673e31a8b08, type: 2}
+    - {fileID: 11400000, guid: e0e12d433780e1a47842ca915e1ab5f5, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1070950032}
           m_TargetAssemblyTypeName: RitualController, Assembly-CSharp
           m_MethodName: OnSelectWeapon
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1070950032}
+          m_TargetAssemblyTypeName: RitualController, Assembly-CSharp
+          m_MethodName: RestartScene
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -22027,6 +22059,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3564869202082370427, guid: fd0968596469e44488df2e7d2fabdd1c, type: 3}
   m_PrefabInstance: {fileID: 1810558258}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1812199011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4702779135172671930, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
+  m_PrefabInstance: {fileID: 108486342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1812898625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23472,7 +23509,7 @@ MonoBehaviour:
   - {fileID: 1728239661}
   - {fileID: 912478114}
   - {fileID: 1943503223}
-  ChoirMembersPrefab: {fileID: 1372521729}
+  ChoirMembersPrefab: {fileID: 0}
   disableWeapon: {fileID: 1070950030}
   deathDelayAfterDrinking: 0.25
   delayBetweenDeath: 0.25
@@ -24003,6 +24040,10 @@ PlayableDirector:
     value: {fileID: 1943503224}
   - key: {fileID: 6517450965700847652, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
     value: {fileID: 1927909786}
+  - key: {fileID: 8920649827620863644, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 317856358}
+  - key: {fileID: -7158348694493471123, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 1812199011}
   m_ExposedReferences:
     m_References:
     - 085eee062b55031468725d0333185ccd: {fileID: 1882138578}
