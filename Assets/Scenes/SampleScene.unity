@@ -17219,10 +17219,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WineChalice
       objectReference: {fileID: 0}
-    - target: {fileID: 8761394119985039855, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
-      propertyPath: m_Radius
-      value: 1.26
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
