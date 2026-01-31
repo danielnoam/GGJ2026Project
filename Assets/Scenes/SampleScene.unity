@@ -6528,22 +6528,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1686737612}
     m_Modifications:
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.026
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.39100003
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.085
-      objectReference: {fileID: 0}
-    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.98089176
-      objectReference: {fileID: 0}
     - target: {fileID: 108675354151640811, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9815953
@@ -6571,6 +6555,22 @@ PrefabInstance:
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39100003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153003620435090468, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98089176
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13356,7 +13356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RitualController
   ritualTimeline: {fileID: 1973860260}
-  cultLeader: {fileID: 0}
+  cultLeader: {fileID: 1882138580}
   outcomeAnimator: {fileID: 0}
   winAnimationTrigger: PlayerWins
   loseAnimationTrigger: PlayerLoses
@@ -22232,6 +22232,8 @@ MonoBehaviour:
   m_Events:
     m_Signals:
     - {fileID: 11400000, guid: 6793757cb7444724d91a72be98bafc64, type: 2}
+    - {fileID: 11400000, guid: 5b8373e63668f13429793f867c2826e4, type: 2}
+    - {fileID: 11400000, guid: f857ce369e004474cb5a12a53a562b01, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -22257,6 +22259,34 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1882138584}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Idle
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1882138584}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Walk
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!95 &1882138584
@@ -23254,6 +23284,8 @@ PlayableDirector:
   - key: {fileID: 7687980540427824425, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
     value: {fileID: 1842277965}
   - key: {fileID: 3534517199194699759, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 1882138584}
+  - key: {fileID: -5741554976911982482, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
     value: {fileID: 1882138584}
   m_ExposedReferences:
     m_References:
@@ -25306,9 +25338,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1709609106}
     m_Modifications:
+    - target: {fileID: 3277240538433359492, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5583806241062531579, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.47
+      value: 1.684
       objectReference: {fileID: 0}
     - target: {fileID: 5583806241062531579, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25316,7 +25352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5583806241062531579, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.43
+      value: 8.971
       objectReference: {fileID: 0}
     - target: {fileID: 5583806241062531579, guid: 2b2a4d4110e649d4c8c6207720defa7d, type: 3}
       propertyPath: m_LocalRotation.w
