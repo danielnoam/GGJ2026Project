@@ -16,6 +16,9 @@ public class RitualController : MonoBehaviour
     [Header("Cult Leader")]
     [SerializeField] private CultLeaderController cultLeader;
     
+    [SerializeField] private GameObject jessAlive;
+    [SerializeField] private GameObject jessDead;
+    
     [Header("Win/Lose Animations")]
     [SerializeField] private Animator outcomeAnimator;
     [SerializeField] private string winAnimationTrigger = "PlayerWins";
@@ -65,6 +68,8 @@ public class RitualController : MonoBehaviour
     // Checks weapons in priority order via registry: Knife > Axe > Choir Weapon > Incense
     private WeaponType DetermineAvailableWeapon()
     {
+        jessAlive.SetActive(false);
+        jessDead.SetActive(true);
         if (RitualWeaponRegistry.Instance == null)
         {
             Debug.LogError("[RitualController] RitualWeaponRegistry not found!");
@@ -99,7 +104,8 @@ public class RitualController : MonoBehaviour
             if (enableDebugLogs) Debug.Log("[RitualController] Incense is available");
             return WeaponType.Incense;
         }
-        
+        jessAlive.SetActive(true);
+        jessAlive.SetActive(false);
         // No weapons available - player wins!
         if (enableDebugLogs) Debug.Log("[RitualController] No weapons available");
         return WeaponType.None;

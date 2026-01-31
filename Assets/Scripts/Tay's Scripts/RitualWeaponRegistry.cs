@@ -18,6 +18,7 @@ public class RitualWeaponRegistry : MonoBehaviour
     [Header("Choir Status")]
     [SerializeField] private bool choirAlive = true;
     [SerializeField] private ChoirGroupController choirGroup;
+
     
     public bool KnifeAvailable => knifeAvailable;
     public bool ShovelAvailable => shovelAvailable;
