@@ -149,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 961063554b8012e4c83215dd612abf92, type: 3}
     - target: {fileID: 6371892025839425530, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: m_Name
-      value: PoisenBerry
+      value: PoisonBerry
       objectReference: {fileID: 0}
     - target: {fileID: 6371892025839425530, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: m_IsActive
