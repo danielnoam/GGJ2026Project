@@ -9,9 +9,8 @@ public class PlayerAnimator : MonoBehaviour
 {
     public static PlayerAnimator Instance;
     
-    private static readonly int StartWalking = Animator.StringToHash("StartWalking");
-    private static readonly int StopWalking = Animator.StringToHash("StopWalking");
     private static readonly int Pickup = Animator.StringToHash("Pickup");
+    private static readonly int IsWalking = Animator.StringToHash("IsWalking");
 
     [Header("Change Direction Animation")] 
     [SerializeField] private float verticalDirectionRotation = 30f;
@@ -56,12 +55,12 @@ public class PlayerAnimator : MonoBehaviour
         if (hasInput && !isWalking)
         {
             isWalking = true;
-            animator.SetTrigger(StartWalking);
+            animator.SetBool(IsWalking, true);
         }
         else if (!hasInput && isWalking)
         {
             isWalking = false;
-            animator.SetTrigger(StopWalking);
+            animator.SetBool(IsWalking, false);
         }
     }
 
