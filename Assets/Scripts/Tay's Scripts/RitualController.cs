@@ -29,6 +29,7 @@ public class RitualController : MonoBehaviour
         if (ritualTimeline != null)
         {
             ritualTimeline.Play();
+            GameEvents.TimelineStarted();
         }
     }
 

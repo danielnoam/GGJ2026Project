@@ -3,29 +3,18 @@ using System.Collections.Generic;
 
 public static partial class GameEvents
 {
-    public static event Action OnRitualStarted;
-    public static event Action<RitualWeapon, HashSet<RitualWeapon>> OnRitualCompleted;
-    public static event Action OnRitualStopped;
+    public static event Action OnTimelineStarted;
     
     public static event Action<RitualWeapon> OnWeaponPrevented;
     
     public static event Action<PlayerInventory> OnInventoryChanged;
     public static event Action<SOItem> OnItemEquipped;
     
-    public static void RitualStarted()
+    public static void TimelineStarted()
     {
-        OnRitualStarted?.Invoke();
+        OnTimelineStarted?.Invoke();
     }
     
-    public static void RitualCompleted(RitualWeapon weaponUsed, HashSet<RitualWeapon> preventedWeapons)
-    {
-        OnRitualCompleted?.Invoke(weaponUsed, preventedWeapons);
-    }
-    
-    public static void RitualStopped()
-    {
-        OnRitualStopped?.Invoke();
-    }
     
     public static void WeaponPrevented(RitualWeapon weapon)
     {
