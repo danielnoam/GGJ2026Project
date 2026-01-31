@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShadowCastingSprite
+  m_Name: TreeShadowCastingSprite
   m_Shader: {fileID: -6465566751694194690, guid: 434c476e9b5303246a2cac4031396c11, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
