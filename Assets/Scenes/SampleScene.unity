@@ -936,26 +936,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIManager
       objectReference: {fileID: 0}
-    - target: {fileID: 2516201327867936920, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2516201327867936920, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2516201327867936920, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2516201327867936920, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2861637782646174020, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
-      propertyPath: fadeCanvasGroup
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8627739001442713018, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4660,6 +4640,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595786216720453469, guid: bb2ec0f6948ec1d4d9e415567480a1d0, type: 3}
       propertyPath: SizeModule.separateAxes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595786216720453469, guid: bb2ec0f6948ec1d4d9e415567480a1d0, type: 3}
+      propertyPath: ShapeModule.radiusThickness
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5595786216720453469, guid: bb2ec0f6948ec1d4d9e415567480a1d0, type: 3}
