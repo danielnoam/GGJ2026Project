@@ -95,6 +95,24 @@ public class PlayerController : MonoBehaviour
             _input.ResetInput();
         }
     }
+    
+    public void TeleportTo(Transform position)
+    {
+        var wasAbleToMove = allowControl;
+        
+        _controller.enabled = false;
+        allowControl = false;
+        velocity = Vector3.zero;
+        _input.ResetInput();
+        
+        transform.position = position.position;
+        
+        if (wasAbleToMove)
+        {
+            _controller.enabled = true;
+            allowControl = false;
+        }
+    }
 
     private void CheckCollisions()
     {
