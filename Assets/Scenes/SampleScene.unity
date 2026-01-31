@@ -15320,6 +15320,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4849326573103058777, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1882138580}
+    - targetCorrespondingSourceObject: {fileID: 4849326573103058777, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1882138579}
     - targetCorrespondingSourceObject: {fileID: 7953311732361640746, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1146258370}
@@ -15332,6 +15338,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
   m_PrefabInstance: {fileID: 1882138576}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1882138578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4849326573103058777, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
+  m_PrefabInstance: {fileID: 1882138576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1882138579
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882138578}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1882138580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882138578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca74b050bde65e488f005b67f56cd65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CultLeaderController
+  animator: {fileID: 1882138579}
+  knifeAnimationTrigger: FetchKnife
+  shovelAnimationTrigger: FetchShovel
+  choirWeaponAnimationTrigger: FetchChoirWeapon
+  incenseAnimationTrigger: FetchIncense
+  noWeaponAnimationTrigger: NoWeapon
+  enableDebugLogs: 0
 --- !u!1001 &1884136735
 PrefabInstance:
   m_ObjectHideFlags: 0
