@@ -105,7 +105,7 @@ public class RitualController : MonoBehaviour
             return WeaponType.Incense;
         }
         jessAlive.SetActive(true);
-        jessAlive.SetActive(false);
+        jessDead.SetActive(false);
         // No weapons available - player wins!
         if (enableDebugLogs) Debug.Log("[RitualController] No weapons available");
         return WeaponType.None;
