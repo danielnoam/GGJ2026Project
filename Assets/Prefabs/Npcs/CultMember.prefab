@@ -311,11 +311,11 @@ PrefabInstance:
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: managedReferences[8175020209025843291].npc
       value: 
-      objectReference: {fileID: 237702557246814423}
+      objectReference: {fileID: 0}
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: managedReferences[8175020209025843293].npc
       value: 
-      objectReference: {fileID: 237702557246814423}
+      objectReference: {fileID: 0}
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: managedReferences[8175020209025843282].item
       value: 
@@ -387,15 +387,15 @@ PrefabInstance:
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: onMissionStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 237702557246814423}
+      objectReference: {fileID: 0}
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: onMissionStarted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 237702557246814423}
+      objectReference: {fileID: 0}
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: onMissionCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 237702557246814423}
+      objectReference: {fileID: 0}
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: onMissionStarted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -479,7 +479,7 @@ PrefabInstance:
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: objectiveEvents.Array.data[2].onObjectiveCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 237702557246814423}
+      objectReference: {fileID: 0}
     - target: {fileID: 5139030240122779998, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
       propertyPath: managedReferences[8175020209025843292].onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -585,14 +585,3 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
---- !u!114 &237702557246814423 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4684444579216439139, guid: f9c71bab11a1f8a4b8e7bda471c5e3f6, type: 3}
-  m_PrefabInstance: {fileID: 4777757018869387188}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e417bdc0b8c0e748b9d41a79576643b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPC
