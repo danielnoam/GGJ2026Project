@@ -11,6 +11,8 @@ public class ChoirGroupController : MonoBehaviour
     [Header("Choir Members")]
     [SerializeField] private List<ChoirMember> choirMembers = new List<ChoirMember>();
 
+    [SerializeField] private GameObject ChoirMembersPrefab;
+
     [SerializeField] private RitualWeaponRegistry disableWeapon;
     
     [Header("Poison Settings")]
@@ -21,6 +23,7 @@ public class ChoirGroupController : MonoBehaviour
     [SerializeField] private bool enableDebugLogs = false;
     
     [SerializeField,ReadOnly]  private bool isPoisoned = false;
+    [SerializeField,ReadOnly]  private bool hasDrankPoison = false;
 
     // Called by PoisonChoirAction when player poisons the drinks
     public void PoisonChoir()
@@ -37,8 +40,22 @@ public class ChoirGroupController : MonoBehaviour
         
         if (isPoisoned)
         {
+            hasDrankPoison = true;
             disableWeapon.SetCelloUnavailable();
             StartCoroutine(TriggerDeathSequence());
+        }
+    }
+
+    public void SetChoirActive()
+    {
+        print(hasDrankPoison);
+        if (hasDrankPoison)
+        {
+            ChoirMembersPrefab.SetActive(false);
+        }
+        else
+        {
+            ChoirMembersPrefab.SetActive(true);
         }
     }
 
@@ -61,4 +78,5 @@ public class ChoirGroupController : MonoBehaviour
             }
         }
     }
+    
 }
