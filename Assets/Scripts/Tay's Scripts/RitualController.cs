@@ -1,5 +1,7 @@
+using DNExtensions.Utilities.Button;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 // Master orchestrator for the ritual ceremony.
 // Manages Timeline playback, responds to signals at key moments (2:00, 2:40, 3:00).
@@ -114,6 +116,12 @@ public class RitualController : MonoBehaviour
                 outcomeAnimator.SetTrigger(loseAnimationTrigger);
             }
         }
+    }
+
+    [Button]
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public enum WeaponType { None, Knife, Shovel, Cello, Incense }
