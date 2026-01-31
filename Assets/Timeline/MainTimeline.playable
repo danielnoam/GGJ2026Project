@@ -18,11 +18,11 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 6683047755592458026}
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 27.366666666666667
+    m_Start: 41.65
     m_ClipIn: 0
     m_Asset: {fileID: 6923324394324462723}
     m_Duration: 5.583333333333336
@@ -88,7 +88,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 27.366666666666667
+    m_PreExtrapolationTime: 41.65
     m_DisplayName: PriestIncesneAnimation
   m_Markers:
     m_Objects: []
@@ -122,29 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.ActivationPlayableAsset
---- !u!114 &-5503467084052740484
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
-  m_Name: Iinitial Dance
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.GroupTrack
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips: []
-  m_Markers:
-    m_Objects: []
 --- !u!114 &-4786762393576235466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -157,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 91.38333333333333
+  m_Time: 81.7
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 72988422c8a0d1d488e558eb29ece3cf, type: 2}
@@ -185,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 89.81666666666666
+  m_Time: 80.13333333333334
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 04456e311d2c4874f82a31185bf9d2b6, type: 2}
@@ -218,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 60.21666666666667
+  m_Time: 75
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 75831373d2586b54f9b435649472517b, type: 2}
@@ -240,14 +217,14 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 6683047755592458026}
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 30.066666666666666
+    m_Start: 45.18333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -6977779813944696446}
-    m_Duration: 71.78476190476191
+    m_Duration: 56.66809523809524
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1835876049625426127}
     m_EaseInDuration: 0
@@ -337,7 +314,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 9.995686383917928
+    m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 8092401176814175654}
     m_Duration: 30
@@ -426,12 +403,8 @@ MonoBehaviour:
   - {fileID: 6477378964449411184}
   - {fileID: 1351637364952963192}
   - {fileID: -100001434487569898}
-  - {fileID: -5503467084052740484}
   - {fileID: 6506882977762550823}
-  - {fileID: 7965132069731860516}
-  - {fileID: 7687980540427824425}
-  - {fileID: -8209454030334016957}
-  - {fileID: -1835876049625426127}
+  - {fileID: 6683047755592458026}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -460,7 +433,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 89.81666666666666
+    m_Start: 80.13333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 4736127758661467166}
     m_Duration: 2.066666666666663
@@ -580,7 +553,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -2652622278780885097}
-    m_Duration: 101.85142857142857
+    m_Duration: 110
     m_TimeScale: 1
     m_ParentTrack: {fileID: 2334570338122595961}
     m_EaseInDuration: 0
@@ -700,7 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 92.23333333333333
+  m_Time: 85.01666666666667
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: cc5f3de2889b16c42b9d4673e31a8b08, type: 2}
@@ -765,6 +738,33 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
+--- !u!114 &6683047755592458026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Priest
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.GroupTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 7965132069731860516}
+  - {fileID: 7687980540427824425}
+  - {fileID: -8209454030334016957}
+  - {fileID: -1835876049625426127}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &6923324394324462723
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -805,14 +805,14 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 6683047755592458026}
   m_Children: []
   m_Clips:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -4180473325909915396}
-    m_Duration: 32.95
+    m_Duration: 45.18333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7687980540427824425}
     m_EaseInDuration: 0
@@ -898,7 +898,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 6683047755592458026}
   m_Children: []
   m_Clips:
   - m_Version: 1
