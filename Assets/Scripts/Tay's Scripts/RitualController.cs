@@ -1,3 +1,4 @@
+using System;
 using DNExtensions.Utilities.Button;
 using UnityEngine;
 using UnityEngine.Playables;
@@ -50,6 +51,15 @@ public class RitualController : MonoBehaviour
         {
             cultLeader.PlayWeaponAnimation(selectedWeapon);
         }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
     }
 
     // Checks weapons in priority order via registry: Knife > Axe > Choir Weapon > Incense

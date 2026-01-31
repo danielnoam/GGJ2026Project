@@ -22,7 +22,5 @@ public class ChoirMember : MonoBehaviour
         {
             animator.SetTrigger(deathAnimationTrigger);
         }
-
-        Destroy(animator, animationDuration);
     }
 }
