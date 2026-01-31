@@ -15,20 +15,27 @@ public class InteractPossibility
 
 [SelectionBase]
 [DisallowMultipleComponent]
+[RequireComponent(typeof(AudioSource))]
 public abstract class InteractableBase : MonoBehaviour, IInteractable
 {
     [Header("Interactable Settings")]
     [SerializeField] private bool canInteract = true;
     [SerializeField] private bool limitInteractionsToOnce;
+    [SerializeField] private AudioClip interactSfx;
     [SerializeField] private InteractPossibility[] interactPossibilities = Array.Empty<InteractPossibility>();
     
     [SerializeField, ReadOnly] private bool hasInteracted;
     [SerializeField, ReadOnly] private string interactableID = "";
 
+    private AudioSource audioSource;
     public string InteractableID => interactableID;
 
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
-    
+
     public void Interact(InteractorData interactorData)
     {
         if (limitInteractionsToOnce && hasInteracted) return;
@@ -48,6 +55,8 @@ public abstract class InteractableBase : MonoBehaviour, IInteractable
                 {
                     action?.Execute();
                 }
+                
+                if (interactSfx) audioSource?.PlayOneShot(interactSfx);
             }
         }
     }

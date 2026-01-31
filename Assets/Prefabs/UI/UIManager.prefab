@@ -326,7 +326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6921453109899569689}
   - component: {fileID: 6293599866219462818}
-  - component: {fileID: 3163370356652968518}
+  - component: {fileID: 104332616930648449}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -361,7 +361,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7684413568427842583}
   m_CullTransparentMesh: 1
---- !u!114 &3163370356652968518
+--- !u!114 &104332616930648449
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7684413568427842583}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bde3e84598ae01c4db2f58f008e9ebd9, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp-firstpass::DNExtensions.Utilities.Shapes.SDFRectangle
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -381,20 +381,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_BaseColor: {r: 1, g: 1, b: 1, a: 0.2784314}
-  m_Rotation: 0
-  m_FillType: 0
+  m_Sprite: {fileID: 21300000, guid: 2b5ce366af6c3c74399857ab5e23447f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
   m_FillAmount: 1
+  m_FillClockwise: 1
   m_FillOrigin: 0
-  m_Offset: {x: 0, y: 0}
-  m_OutlineThickness: 0
-  m_OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-  m_InlineThickness: 0
-  m_InlineColor: {r: 0, g: 0, b: 1, a: 1}
-  m_Width: 0.4
-  m_Height: 0.4
-  m_Rounding: 0.05
-  m_Corners: {x: 0, y: 0, z: 0, w: 0}
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &7956578424874194963
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,8 +425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50.000122, y: 50}
-  m_SizeDelta: {x: 300, y: 150}
+  m_AnchoredPosition: {x: 50, y: 50}
+  m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &8756934547527852041
 GameObject:

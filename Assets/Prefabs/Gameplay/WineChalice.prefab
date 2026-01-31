@@ -164,6 +164,10 @@ PrefabInstance:
       value: WineChalice
       objectReference: {fileID: 0}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
+      propertyPath: interactSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: bcfae9f5b37d9724bb1dc1bb63b920b2, type: 3}
+    - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: interactableID
       value: b1e427c6-1034-4ae1-be74-163690d81f0c
       objectReference: {fileID: 0}

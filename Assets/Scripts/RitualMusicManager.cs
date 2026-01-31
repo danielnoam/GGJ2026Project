@@ -1,13 +1,13 @@
+using System;
 using UnityEngine;
 using System.Collections;
 
-public class RitualAudioManager : MonoBehaviour
+public class RitualMusicManager : MonoBehaviour
 {
-    [Header("Audio Sources")]
-    [SerializeField] private AudioSource[] ritualLayers = new AudioSource[5];
     
-    [Header("Fade Settings")]
+    [Header("Music")]
     [SerializeField] private float fadeDuration = 2f;
+    [SerializeField] private AudioSource[] ritualLayers = new AudioSource[5];
     
     private int currentLayerIndex;
     private Coroutine fadeCoroutine;

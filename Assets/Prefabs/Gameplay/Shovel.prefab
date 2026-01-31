@@ -57,6 +57,10 @@ PrefabInstance:
       value: Shovel
       objectReference: {fileID: 0}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
+      propertyPath: interactSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 505ae7ea35268434d83c2aba53e709d6, type: 3}
+    - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: interactableID
       value: b38a85d8-6da3-4a36-9222-2313173d391c
       objectReference: {fileID: 0}
@@ -119,7 +123,7 @@ PrefabInstance:
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: managedReferences[4802877485695893593].onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 4401168098641050536}
+      objectReference: {fileID: 5020759582419734806}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: managedReferences[4802877485695893593].onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -161,8 +165,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
---- !u!1 &4401168098641050536 stripped
+--- !u!1 &5020759582419734806 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6371892025839425530, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2365734668752272708, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
   m_PrefabInstance: {fileID: 7312039402858507346}
   m_PrefabAsset: {fileID: 0}

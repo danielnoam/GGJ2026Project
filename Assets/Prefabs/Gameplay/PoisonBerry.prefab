@@ -172,6 +172,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
+      propertyPath: interactSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: eab9340a1d110ef4f9dc03a247891365, type: 3}
+    - target: {fileID: 6450986572116693019, guid: f4ab2895c1b09f84893b4a4db5eaf20e, type: 3}
       propertyPath: interactableID
       value: 6e092dbf-b6ee-4ad0-b56a-f4ded9b1fdec
       objectReference: {fileID: 0}

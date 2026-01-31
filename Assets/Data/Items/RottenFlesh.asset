@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RottenFlesh
   m_EditorClassIdentifier: Assembly-CSharp::SOItem
   name: RottenFlesh
-  icon: {fileID: 21300000, guid: b8aa19a2decdadb44a16c01195bad266, type: 3}
+  icon: {fileID: 21300000, guid: 469b233578505af4ab718b462148e55e, type: 3}
