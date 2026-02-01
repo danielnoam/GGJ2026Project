@@ -48,7 +48,6 @@ public class ChoirGroupController : MonoBehaviour
 
     public void SetChoirActive()
     {
-        print(hasDrankPoison);
         if (hasDrankPoison)
         {
             ChoirMembersPrefab.SetActive(false);

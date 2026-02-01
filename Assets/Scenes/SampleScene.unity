@@ -56481,6 +56481,9 @@ PrefabInstance:
       addedObject: {fileID: 1882138581}
     - targetCorrespondingSourceObject: {fileID: 4849326573103058777, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1882138590}
+    - targetCorrespondingSourceObject: {fileID: 4849326573103058777, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1882138583}
     - targetCorrespondingSourceObject: {fileID: 4849326573103058777, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       insertIndex: -1
@@ -56837,6 +56840,19 @@ MonoBehaviour:
   drawSFX: {fileID: 8300000, guid: f69eb1e92f53a614a96b5e80ffabf86c, type: 3}
   hitSFX: {fileID: 8300000, guid: 043906aab446171409d351049dfd08a9, type: 3}
   enableDebugLogs: 0
+--- !u!114 &1882138590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882138578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32840f2def3550b41a06cc4448330a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RemoveCelloFromChoir
+  animator: {fileID: 2110056943}
 --- !u!1001 &1884136735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58404,6 +58420,8 @@ PlayableDirector:
     value: {fileID: 1812199011}
   - key: {fileID: 5879765662747600421, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
     value: {fileID: 1482035279}
+  - key: {fileID: -8354369092261481996, guid: e7e22c5ea4846b84fa7c29a64a3176e4, type: 2}
+    value: {fileID: 1709339131}
   m_ExposedReferences:
     m_References:
     - 085eee062b55031468725d0333185ccd: {fileID: 1882138578}
@@ -60872,7 +60890,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.52
+      value: -5.438
       objectReference: {fileID: 0}
     - target: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       propertyPath: m_LocalPosition.y
