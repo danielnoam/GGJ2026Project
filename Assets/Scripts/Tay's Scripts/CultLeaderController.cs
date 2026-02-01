@@ -8,6 +8,7 @@ public class CultLeaderController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Animator animator;
+    [SerializeField] private Animator jessicasAnimator;
     
     [Header("Animation Trigger Names")]
     [SerializeField] private string knifeAnimationTrigger = "FetchKnife";
@@ -55,7 +56,10 @@ public class CultLeaderController : MonoBehaviour
         // Trigger the animation (this plays the 20-second animation from 2:40 to 3:00)
         animator.SetTrigger(triggerToPlay);
     }
-
+    public void DecapitateJessica()
+    {
+        jessicasAnimator.SetTrigger("Death");
+    }
     // Returns the currently selected weapon
     public RitualController.WeaponType GetCurrentWeapon()
     {
