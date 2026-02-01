@@ -104,8 +104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe483edca9909846afdabbd06e9e6b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrassRandomizer
-  minScaleOffset: -0.1
-  maxScaleOffset: 0.1
+  minScaleOffset: -0.3
+  maxScaleOffset: 0.3
 --- !u!1 &2365734668752272708
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,8 +243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe483edca9909846afdabbd06e9e6b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrassRandomizer
-  minScaleOffset: -0.1
-  maxScaleOffset: 0.1
+  minScaleOffset: -0.3
+  maxScaleOffset: 0.3
 --- !u!1 &6371892025839425530
 GameObject:
   m_ObjectHideFlags: 0

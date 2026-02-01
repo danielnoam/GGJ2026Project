@@ -16,9 +16,9 @@ public class GrassRandomizer : MonoBehaviour
     private void Randomize()
     {
         // 5% chance to destroy - checked first to avoid unnecessary work
-        if (Random.value <= 0.1f)
+        if (Random.value <= 0.3f)
         {
-            Destroy(gameObject);
+            Destroy(transform.parent.parent.gameObject);
             return;
         }
 
