@@ -57511,6 +57511,7 @@ MonoBehaviour:
     m_Signals:
     - {fileID: 11400000, guid: 75831373d2586b54f9b435649472517b, type: 2}
     - {fileID: 11400000, guid: ed8e53ebd3ecaae42bf45752a0ecbbf6, type: 2}
+    - {fileID: 11400000, guid: 7c754534a4991504ba3a1eb7c351a76c, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -57530,6 +57531,20 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1934472142}
+          m_TargetAssemblyTypeName: ChoirGroupController, Assembly-CSharp
+          m_MethodName: SetChoirActive
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
