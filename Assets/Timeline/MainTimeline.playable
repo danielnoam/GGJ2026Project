@@ -1433,7 +1433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
-  m_Time: 1.2833333333333334
+  m_Time: 0.5833333333333334
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 72988422c8a0d1d488e558eb29ece3cf, type: 2}
@@ -1740,7 +1740,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 5759732523566056502}
-    m_Duration: 2.066666666666663
+    m_Duration: 1.2833333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: 519464446710623376}
     m_EaseInDuration: 0
@@ -1933,7 +1933,7 @@ MonoBehaviour:
   m_Time: 41.25
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: 5b8373e63668f13429793f867c2826e4, type: 2}
+  m_Asset: {fileID: 11400000, guid: de639e6cacd6f9540a6c95abff59872c, type: 2}
 --- !u!114 &3534517199194699759
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2102,7 +2102,7 @@ MonoBehaviour:
   m_Time: 29.583333333333332
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: 6793757cb7444724d91a72be98bafc64, type: 2}
+  m_Asset: {fileID: 11400000, guid: 032735901578def45a0b1a66e741f261, type: 2}
 --- !u!74 &4052570065386978047
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -2213,7 +2213,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 41.183334
+        time: 40
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -2507,7 +2507,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 41.183334
+        time: 40
         value: 0
         inSlope: Infinity
         outSlope: Infinity
