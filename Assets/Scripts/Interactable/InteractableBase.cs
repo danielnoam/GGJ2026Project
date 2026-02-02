@@ -1,17 +1,7 @@
 ﻿using System;
 using DNExtensions.Utilities;
-using DNExtensions.Utilities.Button;
 using DNExtensions.Utilities.SerializableSelector;
 using UnityEngine;
-
-[Serializable]
-public class InteractPossibility
-{
-    public SOItem neededItem;
-    [SerializeReference, SerializableSelector] 
-    public GameAction[] actionsOnInteract = Array.Empty<GameAction>();
-}
-
 
 [SelectionBase]
 [DisallowMultipleComponent]
@@ -19,71 +9,69 @@ public class InteractPossibility
 public abstract class InteractableBase : MonoBehaviour, IInteractable
 {
     [Header("Interactable Settings")]
-    [SerializeField] private bool canInteract = true;
     [SerializeField] private bool limitInteractionsToOnce;
     [SerializeField] private AudioClip interactSfx;
-    [SerializeField] private InteractPossibility[] interactPossibilities = Array.Empty<InteractPossibility>();
-    
+    [SerializeField] private InteractionPrompt interactionPrompt;
+    [SerializeField] private SOItem neededItem;
+    [SerializeReference, SerializableSelector] 
+    private GameAction[] actionsOnInteract = Array.Empty<GameAction>();
+    [Separator]
     [SerializeField, ReadOnly] private bool hasInteracted;
-    [SerializeField, ReadOnly] private string interactableID = "";
 
     private AudioSource audioSource;
-    public string InteractableID => interactableID;
+
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
     }
 
-
     public void Interact(InteractorData interactorData)
     {
         if (limitInteractionsToOnce && hasInteracted) return;
         
-        hasInteracted = true;
+        bool isItemNeeded = neededItem;
+        bool playerHasItem = interactorData.inventory;
+            
+        if (!isItemNeeded || playerHasItem && interactorData.inventory.HasItem(neededItem))
+        {
+            foreach (var action in actionsOnInteract)
+            {
+                action?.Execute();
+            }
+            
+            hasInteracted = true;
+                
+            if (interactSfx) audioSource?.PlayOneShot(interactSfx);
+        }
         
         OnInteract(interactorData);
-
-        foreach (InteractPossibility interactPossibility in interactPossibilities)
-        {
-            bool isItemNeeded = interactPossibility.neededItem;
-            bool hasItem = interactorData.equippedItem;
-            
-            if (!isItemNeeded || hasItem && interactorData.equippedItem == interactPossibility.neededItem)
-            {
-                foreach (var action in interactPossibility.actionsOnInteract)
-                {
-                    action?.Execute();
-                }
-                
-                if (interactSfx) audioSource?.PlayOneShot(interactSfx);
-            }
-        }
     }
     
     public virtual bool CanInteract()
     {
-        return canInteract;
+        return !limitInteractionsToOnce || !hasInteracted;
     }
-    
-    protected abstract void OnInteract(InteractorData interactorData);
-    
-    
-#if UNITY_EDITOR
-    private void OnValidate()
+
+    public void ShowPrompt(PlayerInventory playerInventory)
     {
-        if (string.IsNullOrEmpty(interactableID))
+        if (!interactionPrompt || !CanInteract()) return;
+        
+        if (neededItem && !playerInventory.HasItem(neededItem))
         {
-            interactableID = Guid.NewGuid().ToString();
-            UnityEditor.EditorUtility.SetDirty(this);
+            return;
+        }
+    
+        interactionPrompt.Show(neededItem);
+    }
+
+    public void HidePrompt()
+    {
+        if (interactionPrompt)
+        {
+            interactionPrompt.Hide();
         }
     }
     
-    [Button(ButtonPlayMode.OnlyWhenNotPlaying)]
-    private void RegenerateID()
-    {
-        interactableID = Guid.NewGuid().ToString();
-        UnityEditor.EditorUtility.SetDirty(this);
-    }
-#endif
+    protected abstract void OnInteract(InteractorData interactorData);
 }

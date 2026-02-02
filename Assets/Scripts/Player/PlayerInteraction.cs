@@ -1,4 +1,3 @@
-
 using DNExtensions.Utilities;
 using DNExtensions.Utilities.SerializedInterface;
 using UnityEngine;
@@ -17,6 +16,7 @@ public class PlayerInteraction : MonoBehaviour
     private PlayerControllerInput _input;
     private PlayerController _playerController;
     private PlayerInventory _playerInventory;
+    private IInteractable _lastInteractable;
     
     private bool CanInteract => canInteractWhileAirborne || _playerController.IsGrounded;
     
@@ -50,7 +50,7 @@ public class PlayerInteraction : MonoBehaviour
             var interactorData = new InteractorData()
             {
                 interactor = gameObject,
-                equippedItem = _playerInventory.EquippedItem
+                inventory = _playerInventory
             };
             closestInteractable.Value.Interact(interactorData);
         }
@@ -76,6 +76,32 @@ public class PlayerInteraction : MonoBehaviour
         }
         
         closestInteractable.Value = closest;
+        
+        if (CanInteract && closestInteractable.Value != null)
+        {
+            if (_lastInteractable != closestInteractable.Value)
+            {
+                if (_lastInteractable is InteractableBase oldBase)
+                {
+                    oldBase.HidePrompt();
+                }
+                
+                if (closestInteractable.Value is InteractableBase newBase)
+                {
+                    newBase.ShowPrompt(_playerInventory);
+                }
+        
+                _lastInteractable = closestInteractable.Value;
+            }
+        }
+        else
+        {
+            if (_lastInteractable is InteractableBase lastBase)
+            {
+                lastBase.HidePrompt();
+            }
+            _lastInteractable = null;
+        }
     }
 
     private void OnDrawGizmos()

@@ -167,9 +167,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1354,9 +1378,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1478,9 +1526,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1540,9 +1612,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1602,9 +1698,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2071,9 +2191,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2207,9 +2351,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2455,9 +2623,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2641,9 +2833,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3377,9 +3593,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3630,9 +3870,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4395,9 +4659,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1989143049}
     m_Modifications:
+    - target: {fileID: 209410733290314735, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 209410733290314735, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 209410733290314735, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2038607639226879369, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
       propertyPath: m_Name
       value: IncenseHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938936493376859736, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938936493376859736, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938936493376859736, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8457726529580828936, guid: 81d13d5ca7b3b1440bdeefd2df639339, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4745,9 +5033,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4931,9 +5243,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5255,9 +5591,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6751,9 +7111,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 22.437
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6812,6 +7196,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 5606878716046959256, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606878716046959256, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606878716046959256, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5947510479816241951, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
       propertyPath: limitInteractionsToOnce
       value: 1
@@ -6819,6 +7215,18 @@ PrefabInstance:
     - target: {fileID: 6008590627582063870, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
       propertyPath: m_Name
       value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 7485379113015433007, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7485379113015433007, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7485379113015433007, guid: 06b7d0c950f89814f9bd14f887152182, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7287,9 +7695,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7795,9 +8227,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8135,6 +8591,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1989143049}
     m_Modifications:
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3938486899295094220, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
       propertyPath: m_Name
       value: PoisenBerry
@@ -8294,9 +8774,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8681,9 +9185,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8743,9 +9271,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9419,9 +9971,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10086,9 +10662,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10148,9 +10748,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10475,62 +11099,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1989143049}
     m_Modifications:
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: 'managedReferences[-2]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: limitInteractionsToOnce
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: 'managedReferences[8974533461546631168]'
-      value: Assembly-CSharp CallRitualEventAction
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: 'managedReferences[8974533463613374465]'
-      value: Assembly-CSharp PlayPickupAnimation
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: managedReferences[8974533461546631168].weaponToPrevent
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: interactPossibilities.Array.data[0].actionsOnInteract.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[0]'
-      value: 8974533463613374465
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[1]'
-      value: 4802877485695893591
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[2]'
-      value: 8974533461546631168
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[3]'
-      value: 4802877485695893593
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: managedReferences[4802877485695893593].onExecute.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: managedReferences[4802877485695893593].onExecute.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: managedReferences[4802877485695893593].onExecute.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395257064580906057, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
-      propertyPath: managedReferences[4802877485695893593].onExecute.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 4401168098641050536, guid: fd32f3f347670224f8235acc58fbd4a6, type: 3}
       propertyPath: m_Name
       value: Shovel
@@ -10818,9 +11386,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10942,9 +11534,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11562,9 +12178,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13094,6 +13734,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1989143049}
     m_Modifications:
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3938486899295094220, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
       propertyPath: m_Name
       value: PoisenBerry (2)
@@ -13258,9 +13922,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13382,9 +14070,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14022,9 +14734,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14270,9 +15006,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15236,9 +15996,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15298,9 +16082,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15674,9 +16482,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16017,9 +16849,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16144,9 +17000,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16831,9 +17711,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17611,9 +18515,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18856,6 +19784,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1989143049}
     m_Modifications:
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3938486899295094220, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
       propertyPath: m_Name
       value: PoisenBerry (3)
@@ -19278,9 +20230,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19435,37 +20411,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1989143049}
     m_Modifications:
+    - target: {fileID: 156488011426522653, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3938486899295094220, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
       propertyPath: m_Name
       value: Grave
-      objectReference: {fileID: 0}
-    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
-      propertyPath: 'managedReferences[-2]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
-      propertyPath: 'managedReferences[8974533463613374464]'
-      value: Assembly-CSharp PlayPickupAnimation
-      objectReference: {fileID: 0}
-    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
-      propertyPath: interactPossibilities.Array.data[0].actionsOnInteract.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[0]'
-      value: 8974533463613374464
-      objectReference: {fileID: 0}
-    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[1]'
-      value: 4802877485695893591
-      objectReference: {fileID: 0}
-    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[2]'
-      value: 4802877491417186573
-      objectReference: {fileID: 0}
-    - target: {fileID: 3982115442882413101, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
-      propertyPath: 'interactPossibilities.Array.data[0].actionsOnInteract.Array.data[3]'
-      value: 4802877485695893594
       objectReference: {fileID: 0}
     - target: {fileID: 6898713466309673293, guid: b55a3267579e5ec4aadaa12b36d0c2c4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20499,6 +21471,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1989143049}
     m_Modifications:
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156488011426522653, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883781354089862058, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3938486899295094220, guid: 5e6cf9891bde0204999beb8e2586d876, type: 3}
       propertyPath: m_Name
       value: PoisenBerry (1)
@@ -20861,9 +21857,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21579,9 +22599,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21892,9 +22936,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21954,9 +23022,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22212,9 +23304,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22470,9 +23586,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22664,9 +23804,33 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23677,9 +24841,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23943,6 +25131,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: WineChalice
       objectReference: {fileID: 0}
+    - target: {fileID: 6324860966524149759, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324860966524149759, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324860966524149759, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072678820273941064, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072678820273941064, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072678820273941064, guid: ad25a5475733f5344b4bca24748afba6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24125,9 +25337,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25129,9 +26365,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26164,9 +27424,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26320,9 +27604,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635145804836551099, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7536598088360155754, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
       propertyPath: m_Name
       value: PoisenBerryNoBerry
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519138330048203788, guid: ddebbacc4973e0442be02d20ecb0dbe1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
