@@ -72,7 +72,7 @@ public class ChoirGroupController : MonoBehaviour
           
             if (member != null)
             {
-                yield return new WaitForSeconds(delayBetweenDeath);
+                //yield return new WaitForSeconds(delayBetweenDeath);
                 member.Die();
             }
         }

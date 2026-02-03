@@ -25666,11 +25666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: -0.00000004371139
       objectReference: {fileID: 0}
     - target: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       propertyPath: m_LocalRotation.y
@@ -25678,7 +25678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4704776740523134290, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25737,7 +25737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChoirMember
   animator: {fileID: 912478115}
   deathAnimationTrigger: Die
-  enableDebugLogs: 0
+  enableDebugLogs: 1
 --- !u!95 &912478115 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1387464684404006746, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
@@ -59218,7 +59218,7 @@ MonoBehaviour:
   disableWeapon: {fileID: 1070950030}
   deathDelayAfterDrinking: 0.25
   delayBetweenDeath: 0.25
-  enableDebugLogs: 1
+  enableDebugLogs: 0
   isPoisoned: 0
   hasDrankPoison: 0
 --- !u!1001 &1937289529
@@ -59456,7 +59456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChoirMember
   animator: {fileID: 1943503224}
   deathAnimationTrigger: Die
-  enableDebugLogs: 0
+  enableDebugLogs: 1
 --- !u!95 &1943503224 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1387464684404006746, guid: e157842bb6e6be04bbbfc995a1b0a8f9, type: 3}
