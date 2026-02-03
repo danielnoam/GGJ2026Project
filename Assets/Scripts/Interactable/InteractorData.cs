@@ -3,5 +3,5 @@
 public struct InteractorData
 {
         public GameObject interactor;
-        public SOItem equippedItem;
+        public PlayerInventory inventory;
 }

@@ -1,25 +1,15 @@
 using System.Collections.Generic;
-using System.Linq;
 using DNExtensions.Utilities;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-
-
-[RequireComponent(typeof(PlayerControllerInput))]
 public class PlayerInventory : MonoBehaviour
 {
     public static PlayerInventory Instance;
     
     [Header("Inventory Settings")]
     [SerializeField, ReadOnly] private List<SOItem> allItems = new List<SOItem>();
-    [SerializeField, ReadOnly] private SOItem equippedItem;
-    
-    private PlayerControllerInput _input;
-    private PlayerController _playerController;
     
     public List<SOItem> AllItems => allItems;
-    public SOItem EquippedItem => equippedItem;
     public int Count => allItems.Count;
     public bool IsEmpty => allItems.Count == 0;
 
@@ -32,50 +22,6 @@ public class PlayerInventory : MonoBehaviour
         }
         
         Instance = this;
-        
-        _input = GetComponent<PlayerControllerInput>();
-        _playerController = GetComponent<PlayerController>();
-    }
-    
-
-    private void OnEnable()
-    {
-        _input.OnCycleItemsAction += OnCycleItemsAction;
-    }
-
-    private void OnDisable()
-    {
-        _input.OnCycleItemsAction -= OnCycleItemsAction;
-    }
-    
-
-    private void OnCycleItemsAction(InputAction.CallbackContext context)
-    {
-        if (!_playerController.AllowControl) return;
-        
-        if (!context.performed || IsEmpty) return;
-
-        var usableItems = allItems;
-        if (usableItems.Count == 0) return;
-
-        int currentIndex = equippedItem ? usableItems.IndexOf(equippedItem) : -1;
-        int cycleDir = Mathf.RoundToInt(context.ReadValue<float>());
-    
-        if (cycleDir == 0) return;
-    
-        int nextIndex = currentIndex + cycleDir;
-    
-        if (nextIndex < 0)
-        {
-            nextIndex = usableItems.Count - 1;
-        }
-        else if (nextIndex >= usableItems.Count)
-        {
-            nextIndex = 0;
-        }
-    
-        equippedItem = usableItems[nextIndex];
-        GameEvents.ItemEquipped(equippedItem);
     }
 
     public bool TryAddItem(SOItem item)
@@ -86,9 +32,8 @@ public class PlayerInventory : MonoBehaviour
             return false;
         }
         
-        
         allItems.Add(item);
-        OnItemAdded(item);
+        GameEvents.InventoryChanged(this);
         return true;
     }
     
@@ -106,7 +51,7 @@ public class PlayerInventory : MonoBehaviour
             return false;
         }
         
-        OnItemRemoved(item);
+        GameEvents.InventoryChanged(this);
         return true;
     }
     
@@ -118,6 +63,7 @@ public class PlayerInventory : MonoBehaviour
     public void Clear()
     {
         allItems.Clear();
+        GameEvents.InventoryChanged(this);
     }
     
     public SOItem GetItemAtIndex(int index)
@@ -136,30 +82,5 @@ public class PlayerInventory : MonoBehaviour
         if (!item) return -1;
         
         return allItems.IndexOf(item);
-    }
-
-    private void OnItemAdded(SOItem item)
-    {
-        if (!equippedItem)
-        {
-            equippedItem = item;
-        }
-        
-        GameEvents.InventoryChanged(this);
-    }
-
-    private void OnItemRemoved(SOItem item)
-    {
-        if (equippedItem == item)
-        {
-            equippedItem = null;
-        }
-
-        if (!equippedItem && allItems.Count > 0)
-        {
-            equippedItem = allItems.First();
-        }
-        
-        GameEvents.InventoryChanged(this);
     }
 }
