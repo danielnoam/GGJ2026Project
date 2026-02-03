@@ -38,11 +38,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FadeSpeed: 0.00141
-    - _Power: 50
+    - _FadeSpeed: 0.00203
+    - _Power: 20
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Size: 73.5
+    - _Size: 111.3
     m_Colors:
     - _Color1: {r: 19.22414, g: 19.22414, b: 19.22414, a: 1}
     - _Color2: {r: 8.47419, g: 0, b: 0.13119698, a: 1}

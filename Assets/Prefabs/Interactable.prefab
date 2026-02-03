@@ -160,7 +160,7 @@ MonoBehaviour:
   itemIcon: {fileID: 4866725876683867375}
   itemBackground: {fileID: 2963052873310247367}
   promptText: {fileID: 5203685828467242251}
-  defaultInteractIcon: {fileID: 0}
+  defaultInteractIcon: {fileID: 21300000, guid: 0752deed59d4cff469f1e546ae32cde3, type: 3}
   fadeDuration: 0.15
 --- !u!1 &2365734668752272708
 GameObject:
@@ -352,8 +352,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: F
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0ac5f17cec8b8bd4a946640ec3fd3526, type: 2}
+  m_sharedMaterial: {fileID: -4019053358881739773, guid: 0ac5f17cec8b8bd4a946640ec3fd3526, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

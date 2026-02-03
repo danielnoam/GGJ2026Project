@@ -1,7 +1,9 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using PrimeTween;
 using UnityEngine.SceneManagement;
+using VHierarchy;
 
 // Controls screen fade in/out effects using PrimeTween.
 // Called by Timeline signals to fade screen to black and back.
@@ -17,6 +19,7 @@ public class ScreenFadeController : MonoBehaviour
     [SerializeField] private float fadeInDuration = 1f;  // Time to fade back to clear
     [SerializeField] private Ease fadeEase = Ease.InOutSine;
     [SerializeField] private bool isStartAlphaZero = true;
+    [SerializeField] private bool startWithFade = false;
     
     [Header("Debug")]
     [SerializeField] private bool enableDebugLogs = false;
@@ -29,6 +32,10 @@ public class ScreenFadeController : MonoBehaviour
             fadeCanvasGroup.alpha = 0f;
         }
         fadeCanvasGroup.alpha = isStartAlphaZero ? 0f : 1f;
+        if (startWithFade)
+        {
+            FadeInDisable(fadeInDuration);
+        }
     }
 
     // Called by Timeline Signal - fades screen to black
@@ -74,7 +81,21 @@ public class ScreenFadeController : MonoBehaviour
             Tween.Alpha(fadeCanvasGroup, 0f, duration, ease: fadeEase);
         }
     }
+    public void FadeInDisable(float duration)
+    {
+        StartCoroutine(FadeInDelay(duration));
+    }
 
+    IEnumerator FadeInDelay(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        if (fadeCanvasGroup != null)
+        {
+            Tween.Alpha(fadeCanvasGroup, 0f, duration, ease: fadeEase);
+            yield return new WaitForSeconds(duration);
+            fadeCanvasGroup.blocksRaycasts = false;
+        }
+    }
     public void TransferToMainScene()
     {
         SceneManager.LoadScene("SampleScene");
