@@ -58,6 +58,10 @@ public class RitualMusicManager : MonoBehaviour
         }
     }
 
+    public void CrossfadeLayers()
+    {
+        StartCoroutine(CrossfadeLayers(currentLayerIndex, currentLayerIndex+1));
+    }
     private IEnumerator CrossfadeLayers(int fromIndex, int toIndex)
     {
         AudioSource fromSource = ritualLayers[fromIndex];
