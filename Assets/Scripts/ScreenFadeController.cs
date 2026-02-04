@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using PrimeTween;
 using UnityEngine.SceneManagement;
-using VHierarchy;
+
 
 // Controls screen fade in/out effects using PrimeTween.
 // Called by Timeline signals to fade screen to black and back.
@@ -88,7 +88,7 @@ public class ScreenFadeController : MonoBehaviour
 
     IEnumerator FadeInDelay(float duration)
     {
-        yield return new WaitForSeconds(duration);
+        yield return new WaitForSeconds(4);
         if (fadeCanvasGroup != null)
         {
             Tween.Alpha(fadeCanvasGroup, 0f, duration, ease: fadeEase);

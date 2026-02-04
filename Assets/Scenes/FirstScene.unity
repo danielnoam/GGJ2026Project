@@ -2608,7 +2608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2248238403802903678, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
       propertyPath: fadeInDuration
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2248238403802903678, guid: 84b60e2e377a9ab438108160c34201e2, type: 3}
       propertyPath: fadeCanvasGroup
@@ -4568,7 +4568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScreenFadeController
   fadeCanvasGroup: {fileID: 238506674}
   fadeImage: {fileID: 0}
-  fadeOutDuration: 1
+  fadeOutDuration: 3
   fadeInDuration: 3
   fadeEase: 4
   isStartAlphaZero: 0
