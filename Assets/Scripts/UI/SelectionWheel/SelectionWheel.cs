@@ -44,7 +44,7 @@ namespace UI
 
             wheelItems.Clear();
 
-            if (!inventory || inventory.IsEmpty)
+            if (!inventory)
             {
                 gameObject.SetActive(false);
                 return;
